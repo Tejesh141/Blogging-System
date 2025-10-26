@@ -30,7 +30,7 @@
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
-		<!-- PostgreSQL JDBC Driver -->
+		
 <dependency>
     <groupId>org.postgresql</groupId>
     <artifactId>postgresql</artifactId>

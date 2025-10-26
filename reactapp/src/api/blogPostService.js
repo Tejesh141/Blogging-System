@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = "https://8080-acfaaadceacfaafaeaafcdcbadecfcedbcbea.premiumproject.examly.io/api/posts";
+const API_BASE_URL = "https://blog-server-ni24.onrender.com/api/posts";
 
 const handleError = (error) => {
   if (error.response) {
