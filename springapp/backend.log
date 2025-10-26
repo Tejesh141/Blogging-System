@@ -1,0 +1,1212 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< com.examly:springapp >------------------------
+[INFO] Building demo 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.4.0:run (default-cli) > test-compile @ springapp >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ springapp ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 0 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ springapp ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ springapp ---
+[INFO] Copying 1 resource from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ springapp ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< spring-boot:3.4.0:run (default-cli) < test-compile @ springapp <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.4.0:run (default-cli) @ springapp ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-buildpack-platform/3.4.0/spring-boot-buildpack-platform-3.4.0.pom
+Progress (1): 1.0 kBProgress (1): 2.7 kBProgress (1): 3.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-buildpack-platform/3.4.0/spring-boot-buildpack-platform-3.4.0.pom (3.2 kB at 11 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.pom
+Progress (1): 1.3 kBProgress (1): 2.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.pom (2.3 kB at 44 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.13.0/jna-5.13.0.pom
+Progress (1): 1.4 kBProgress (1): 2.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.13.0/jna-5.13.0.pom (2.0 kB at 37 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.25.0/commons-compress-1.25.0.pom
+Progress (1): 749 BProgress (1): 1.9 kBProgress (1): 3.0 kBProgress (1): 5.1 kBProgress (1): 8.8 kBProgress (1): 10 kB Progress (1): 13 kBProgress (1): 15 kBProgress (1): 17 kBProgress (1): 22 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.25.0/commons-compress-1.25.0.pom (22 kB at 409 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/64/commons-parent-64.pom
+Progress (1): 720 BProgress (1): 1.6 kBProgress (1): 2.9 kBProgress (1): 4.4 kBProgress (1): 5.5 kBProgress (1): 7.8 kBProgress (1): 9.1 kBProgress (1): 11 kB Progress (1): 13 kBProgress (1): 16 kBProgress (1): 17 kBProgress (1): 19 kBProgress (1): 23 kBProgress (1): 25 kBProgress (1): 27 kBProgress (1): 30 kBProgress (1): 33 kBProgress (1): 36 kBProgress (1): 41 kBProgress (1): 43 kBProgress (1): 46 kBProgress (1): 48 kBProgress (1): 50 kBProgress (1): 52 kBProgress (1): 56 kBProgress (1): 58 kBProgress (1): 60 kBProgress (1): 64 kBProgress (1): 66 kBProgress (1): 69 kBProgress (1): 72 kBProgress (1): 74 kBProgress (1): 76 kBProgress (1): 78 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/64/commons-parent-64.pom (78 kB at 1.1 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/30/apache-30.pom
+Progress (1): 740 BProgress (1): 2.0 kBProgress (1): 3.3 kBProgress (1): 5.2 kBProgress (1): 8.6 kBProgress (1): 12 kB Progress (1): 17 kBProgress (1): 21 kBProgress (1): 22 kBProgress (1): 23 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/30/apache-30.pom (23 kB at 363 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5/5.4.1/httpclient5-5.4.1.pom
+Progress (1): 859 BProgress (1): 2.0 kBProgress (1): 4.9 kBProgress (1): 6.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5/5.4.1/httpclient5-5.4.1.pom (6.1 kB at 92 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5-parent/5.4.1/httpclient5-parent-5.4.1.pom
+Progress (1): 843 BProgress (1): 2.2 kBProgress (1): 3.4 kBProgress (1): 7.7 kBProgress (1): 11 kB Progress (1): 13 kBProgress (1): 16 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5-parent/5.4.1/httpclient5-parent-5.4.1.pom (16 kB at 370 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-parent/13/httpcomponents-parent-13.pom
+Progress (1): 805 BProgress (1): 2.1 kBProgress (1): 4.0 kBProgress (1): 5.9 kBProgress (1): 7.0 kBProgress (1): 8.4 kBProgress (1): 12 kB Progress (1): 15 kBProgress (1): 16 kBProgress (1): 19 kBProgress (1): 23 kBProgress (1): 24 kBProgress (1): 27 kBProgress (1): 30 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-parent/13/httpcomponents-parent-13.pom (30 kB at 539 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/27/apache-27.pom
+Progress (1): 742 BProgress (1): 2.1 kBProgress (1): 3.9 kBProgress (1): 7.3 kBProgress (1): 12 kB Progress (1): 16 kBProgress (1): 19 kBProgress (1): 20 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/27/apache-27.pom (20 kB at 399 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.3.1/httpcore5-5.3.1.pom
+Progress (1): 878 BProgress (1): 2.9 kBProgress (1): 3.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.3.1/httpcore5-5.3.1.pom (3.9 kB at 72 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-parent/5.3.1/httpcore5-parent-5.3.1.pom
+Progress (1): 840 BProgress (1): 2.2 kBProgress (1): 4.0 kBProgress (1): 7.5 kBProgress (1): 10 kB Progress (1): 14 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-parent/5.3.1/httpcore5-parent-5.3.1.pom (14 kB at 254 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/5.3.1/httpcore5-h2-5.3.1.pom
+Progress (1): 889 BProgress (1): 3.1 kBProgress (1): 3.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/5.3.1/httpcore5-h2-5.3.1.pom (3.6 kB at 56 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/tomlj/tomlj/1.0.0/tomlj-1.0.0.pom
+Progress (1): 1.2 kBProgress (1): 2.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/tomlj/tomlj/1.0.0/tomlj-1.0.0.pom (2.8 kB at 54 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-runtime/4.7.2/antlr4-runtime-4.7.2.pom
+Progress (1): 885 BProgress (1): 3.2 kBProgress (1): 3.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-runtime/4.7.2/antlr4-runtime-4.7.2.pom (3.6 kB at 48 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-master/4.7.2/antlr4-master-4.7.2.pom
+Progress (1): 973 BProgress (1): 2.9 kBProgress (1): 4.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-master/4.7.2/antlr4-master-4.7.2.pom (4.4 kB at 62 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom
+Progress (1): 1.1 kBProgress (1): 3.5 kBProgress (1): 4.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom (4.3 kB at 105 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-loader-tools/3.4.0/spring-boot-loader-tools-3.4.0.pom
+Progress (1): 1.0 kBProgress (1): 2.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-loader-tools/3.4.0/spring-boot-loader-tools-3.4.0.pom (2.2 kB at 44 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.3.2/maven-common-artifact-filters-3.3.2.pom
+Progress (1): 803 BProgress (1): 2.3 kBProgress (1): 3.2 kBProgress (1): 5.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.3.2/maven-common-artifact-filters-3.3.2.pom (5.3 kB at 98 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/37/maven-shared-components-37.pom
+Progress (1): 772 BProgress (1): 2.3 kBProgress (1): 4.4 kBProgress (1): 4.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/37/maven-shared-components-37.pom (4.9 kB at 109 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/37/maven-parent-37.pom
+Progress (1): 737 BProgress (1): 1.9 kBProgress (1): 5.5 kBProgress (1): 9.8 kBProgress (1): 14 kB Progress (1): 19 kBProgress (1): 23 kBProgress (1): 26 kBProgress (1): 27 kBProgress (1): 28 kBProgress (1): 31 kBProgress (1): 33 kBProgress (1): 36 kBProgress (1): 39 kBProgress (1): 42 kBProgress (1): 46 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/37/maven-parent-37.pom (46 kB at 931 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-observation/1.14.0/micrometer-observation-1.14.0.pom
+Progress (1): 1.1 kBProgress (1): 3.4 kBProgress (1): 3.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-observation/1.14.0/micrometer-observation-1.14.0.pom (3.8 kB at 87 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-commons/1.14.0/micrometer-commons-1.14.0.pom
+Progress (1): 1.1 kBProgress (1): 3.1 kBProgress (1): 3.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-commons/1.14.0/micrometer-commons-1.14.0.pom (3.4 kB at 36 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.5.0/maven-shade-plugin-3.5.0.pom
+Progress (1): 762 BProgress (1): 2.3 kBProgress (1): 4.8 kBProgress (1): 8.5 kBProgress (1): 11 kB Progress (1): 12 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.5.0/maven-shade-plugin-3.5.0.pom (12 kB at 270 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.pom
+Progress (1): 1.0 kBProgress (1): 3.4 kBProgress (1): 3.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.pom (3.8 kB at 50 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.32/slf4j-parent-1.7.32.pom
+Progress (1): 1.0 kBProgress (1): 3.2 kBProgress (1): 6.0 kBProgress (1): 9.1 kBProgress (1): 12 kB Progress (1): 14 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.32/slf4j-parent-1.7.32.pom (14 kB at 242 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.5/asm-9.5.pom
+Progress (1): 1.2 kBProgress (1): 2.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.5/asm-9.5.pom (2.4 kB at 32 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.pom
+Progress (1): 1.1 kBProgress (1): 2.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.pom (2.8 kB at 52 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.pom
+Progress (1): 1.1 kBProgress (1): 2.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.pom (2.6 kB at 45 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jdom/jdom2/2.0.6.1/jdom2-2.0.6.1.pom
+Progress (1): 942 BProgress (1): 2.2 kBProgress (1): 3.1 kBProgress (1): 4.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/jdom/jdom2/2.0.6.1/jdom2-2.0.6.1.pom (4.6 kB at 105 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/3.2.1/maven-dependency-tree-3.2.1.pom
+Progress (1): 783 BProgress (1): 2.2 kBProgress (1): 4.4 kBProgress (1): 6.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/3.2.1/maven-dependency-tree-3.2.1.pom (6.2 kB at 97 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-util/1.0.0.v20140518/aether-util-1.0.0.v20140518.pom
+Progress (1): 927 BProgress (1): 2.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-util/1.0.0.v20140518/aether-util-1.0.0.v20140518.pom (2.2 kB at 46 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether/1.0.0.v20140518/aether-1.0.0.v20140518.pom
+Progress (1): 814 BProgress (1): 3.3 kBProgress (1): 5.2 kBProgress (1): 9.1 kBProgress (1): 12 kB Progress (1): 17 kBProgress (1): 20 kBProgress (1): 23 kBProgress (1): 28 kBProgress (1): 30 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether/1.0.0.v20140518/aether-1.0.0.v20140518.pom (30 kB at 558 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-api/1.0.0.v20140518/aether-api-1.0.0.v20140518.pom
+Progress (1): 937 BProgress (1): 1.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-api/1.0.0.v20140518/aether-api-1.0.0.v20140518.pom (1.9 kB at 40 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.13.0/commons-io-2.13.0.pom
+Progress (1): 771 BProgress (1): 2.1 kBProgress (1): 5.2 kBProgress (1): 7.9 kBProgress (1): 10 kB Progress (1): 12 kBProgress (1): 15 kBProgress (1): 18 kBProgress (1): 20 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.13.0/commons-io-2.13.0.pom (20 kB at 383 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/58/commons-parent-58.pom
+Progress (1): 732 BProgress (1): 1.9 kBProgress (1): 3.2 kBProgress (1): 4.7 kBProgress (1): 6.8 kBProgress (1): 8.5 kBProgress (1): 11 kB Progress (1): 13 kBProgress (1): 16 kBProgress (1): 18 kBProgress (1): 21 kBProgress (1): 23 kBProgress (1): 26 kBProgress (1): 30 kBProgress (1): 33 kBProgress (1): 36 kBProgress (1): 41 kBProgress (1): 43 kBProgress (1): 46 kBProgress (1): 48 kBProgress (1): 51 kBProgress (1): 54 kBProgress (1): 58 kBProgress (1): 60 kBProgress (1): 64 kBProgress (1): 66 kBProgress (1): 69 kBProgress (1): 75 kBProgress (1): 78 kBProgress (1): 81 kBProgress (1): 83 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/58/commons-parent-58.pom (83 kB at 1.6 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/vafer/jdependency/2.8.0/jdependency-2.8.0.pom
+Progress (1): 1.1 kBProgress (1): 5.0 kBProgress (1): 8.9 kBProgress (1): 13 kB Progress (1): 14 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/vafer/jdependency/2.8.0/jdependency-2.8.0.pom (14 kB at 289 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.pom
+Progress (1): 775 BProgress (1): 2.2 kBProgress (1): 5.2 kBProgress (1): 9.1 kBProgress (1): 12 kB Progress (1): 15 kBProgress (1): 17 kBProgress (1): 19 kBProgress (1): 22 kBProgress (1): 24 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.pom (24 kB at 476 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/48/commons-parent-48.pom
+Progress (1): 739 BProgress (1): 2.0 kBProgress (1): 3.3 kBProgress (1): 5.0 kBProgress (1): 8.6 kBProgress (1): 11 kB Progress (1): 14 kBProgress (1): 18 kBProgress (1): 21 kBProgress (1): 25 kBProgress (1): 27 kBProgress (1): 29 kBProgress (1): 32 kBProgress (1): 33 kBProgress (1): 37 kBProgress (1): 39 kBProgress (1): 42 kBProgress (1): 46 kBProgress (1): 52 kBProgress (1): 56 kBProgress (1): 60 kBProgress (1): 62 kBProgress (1): 64 kBProgress (1): 66 kBProgress (1): 68 kBProgress (1): 69 kBProgress (1): 72 kBProgress (1): 72 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/48/commons-parent-48.pom (72 kB at 1.2 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-buildpack-platform/3.4.0/spring-boot-buildpack-platform-3.4.0.jar
+Progress (1): 7.7/297 kBProgress (1): 16/297 kB Progress (1): 20/297 kBProgress (1): 37/297 kBProgress (1): 53/297 kBProgress (1): 69/297 kBProgress (1): 86/297 kBProgress (1): 102/297 kBProgress (1): 118/297 kBProgress (1): 135/297 kBProgress (1): 151/297 kBProgress (1): 168/297 kBProgress (1): 184/297 kBProgress (1): 200/297 kBProgress (1): 217/297 kBProgress (1): 233/297 kBProgress (1): 250/297 kBProgress (1): 266/297 kBProgress (1): 282/297 kBProgress (1): 297 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-buildpack-platform/3.4.0/spring-boot-buildpack-platform-3.4.0.jar (297 kB at 4.4 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.25.0/commons-compress-1.25.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5/5.4.1/httpclient5-5.4.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.3.1/httpcore5-5.3.1.jar
+Progress (1): 0/1.4 MBProgress (1): 0/1.4 MBProgress (1): 0/1.4 MBProgress (1): 0/1.4 MBProgress (1): 0.1/1.4 MBProgress (1): 0.1/1.4 MBProgress (1): 0.1/1.4 MBProgress (1): 0.1/1.4 MBProgress (1): 0.1/1.4 MBProgress (1): 0.1/1.4 MBProgress (1): 0.2/1.4 MBProgress (1): 0.2/1.4 MBProgress (1): 0.2/1.4 MBProgress (1): 0.2/1.4 MBProgress (1): 0.2/1.4 MBProgress (1): 0.2/1.4 MBProgress (1): 0.2/1.4 MBProgress (1): 0.3/1.4 MBProgress (1): 0.3/1.4 MBProgress (1): 0.3/1.4 MBProgress (1): 0.3/1.4 MBProgress (1): 0.3/1.4 MBProgress (1): 0.3/1.4 MBProgress (1): 0.3/1.4 MBProgress (1): 0.4/1.4 MBProgress (1): 0.4/1.4 MBProgress (1): 0.4/1.4 MBProgress (1): 0.4/1.4 MBProgress (1): 0.4/1.4 MBProgress (1): 0.4/1.4 MBProgress (1): 0.5/1.4 MBProgress (1): 0.5/1.4 MBProgress (1): 0.5/1.4 MBProgress (1): 0.5/1.4 MBProgress (1): 0.5/1.4 MBProgress (1): 0.5/1.4 MBProgress (1): 0.6/1.4 MBProgress (1): 0.6/1.4 MBProgress (1): 0.6/1.4 MBProgress (1): 0.6/1.4 MBProgress (1): 0.6/1.4 MBProgress (1): 0.6/1.4 MBProgress (1): 0.6/1.4 MBProgress (1): 0.7/1.4 MBProgress (1): 0.7/1.4 MBProgress (1): 0.7/1.4 MBProgress (1): 0.7/1.4 MBProgress (1): 0.7/1.4 MBProgress (1): 0.7/1.4 MBProgress (1): 0.8/1.4 MBProgress (1): 0.8/1.4 MBProgress (1): 0.8/1.4 MBProgress (1): 0.8/1.4 MBProgress (1): 0.8/1.4 MBProgress (1): 0.8/1.4 MBProgress (1): 0.8/1.4 MBProgress (1): 0.9/1.4 MBProgress (1): 0.9/1.4 MBProgress (1): 0.9/1.4 MBProgress (1): 0.9/1.4 MBProgress (1): 0.9/1.4 MBProgress (1): 0.9/1.4 MBProgress (1): 1.0/1.4 MBProgress (1): 1.0/1.4 MBProgress (1): 1.0/1.4 MBProgress (1): 1.0/1.4 MBProgress (1): 1.0/1.4 MBProgress (1): 1.0/1.4 MBProgress (1): 1.0/1.4 MBProgress (1): 1.1/1.4 MBProgress (1): 1.1/1.4 MBProgress (1): 1.1/1.4 MBProgress (1): 1.1/1.4 MBProgress (1): 1.1/1.4 MBProgress (1): 1.1/1.4 MBProgress (1): 1.2/1.4 MBProgress (1): 1.2/1.4 MBProgress (1): 1.2/1.4 MBProgress (1): 1.2/1.4 MBProgress (1): 1.2/1.4 MBProgress (2): 1.2/1.4 MB | 0/1.9 MBProgress (2): 1.2/1.4 MB | 0/1.9 MBProgress (2): 1.2/1.4 MB | 0/1.9 MBProgress (2): 1.2/1.4 MB | 0/1.9 MBProgress (2): 1.2/1.4 MB | 0/1.9 MBProgress (2): 1.2/1.4 MB | 0/1.9 MBProgress (2): 1.2/1.4 MB | 0/1.9 MBProgress (2): 1.2/1.4 MB | 0/1.9 MBProgress (2): 1.3/1.4 MB | 0/1.9 MBProgress (2): 1.3/1.4 MB | 0/1.9 MBProgress (2): 1.3/1.4 MB | 0/1.9 MBProgress (2): 1.3/1.4 MB | 0/1.9 MBProgress (2): 1.3/1.4 MB | 0/1.9 MBProgress (2): 1.3/1.4 MB | 0/1.9 MBProgress (2): 1.3/1.4 MB | 0/1.9 MBProgress (2): 1.3/1.4 MB | 0/1.9 MBProgress (2): 1.3/1.4 MB | 0/1.9 MBProgress (2): 1.3/1.4 MB | 0/1.9 MBProgress (2): 1.3/1.4 MB | 0/1.9 MBProgress (2): 1.3/1.4 MB | 0/1.9 MBProgress (2): 1.3/1.4 MB | 0/1.9 MBProgress (2): 1.3/1.4 MB | 0/1.9 MBProgress (2): 1.3/1.4 MB | 0/1.9 MBProgress (2): 1.3/1.4 MB | 0/1.9 MBProgress (2): 1.3/1.4 MB | 0/1.9 MBProgress (2): 1.3/1.4 MB | 0/1.9 MBProgress (2): 1.3/1.4 MB | 0/1.9 MBProgress (2): 1.3/1.4 MB | 0/1.9 MBProgress (2): 1.3/1.4 MB | 0/1.9 MBProgress (2): 1.3/1.4 MB | 0/1.9 MBProgress (2): 1.3/1.4 MB | 0/1.9 MBProgress (2): 1.3/1.4 MB | 0/1.9 MBProgress (2): 1.3/1.4 MB | 0/1.9 MBProgress (2): 1.3/1.4 MB | 0/1.9 MBProgress (3): 1.3/1.4 MB | 0/1.9 MB | 0.9/908 kBProgress (3): 1.3/1.4 MB | 0/1.9 MB | 0.9/908 kBProgress (3): 1.3/1.4 MB | 0/1.9 MB | 2.3/908 kBProgress (3): 1.3/1.4 MB | 0/1.9 MB | 2.3/908 kBProgress (3): 1.3/1.4 MB | 0/1.9 MB | 2.3/908 kBProgress (3): 1.3/1.4 MB | 0/1.9 MB | 3.6/908 kBProgress (3): 1.3/1.4 MB | 0/1.9 MB | 5.0/908 kBProgress (3): 1.3/1.4 MB | 0/1.9 MB | 6.4/908 kBProgress (3): 1.3/1.4 MB | 0/1.9 MB | 7.7/908 kBProgress (3): 1.3/1.4 MB | 0/1.9 MB | 9.1/908 kBProgress (3): 1.3/1.4 MB | 0/1.9 MB | 10/908 kB Progress (3): 1.3/1.4 MB | 0/1.9 MB | 12/908 kBProgress (3): 1.3/1.4 MB | 0/1.9 MB | 12/908 kBProgress (3): 1.3/1.4 MB | 0/1.9 MB | 13/908 kBProgress (3): 1.3/1.4 MB | 0/1.9 MB | 15/908 kBProgress (3): 1.3/1.4 MB | 0/1.9 MB | 16/908 kBProgress (3): 1.3/1.4 MB | 0/1.9 MB | 17/908 kBProgress (3): 1.4/1.4 MB | 0/1.9 MB | 17/908 kBProgress (3): 1.4/1.4 MB | 0/1.9 MB | 19/908 kBProgress (3): 1.4/1.4 MB | 0/1.9 MB | 20/908 kBProgress (3): 1.4 MB | 0/1.9 MB | 20/908 kB    Progress (3): 1.4 MB | 0/1.9 MB | 21/908 kBProgress (3): 1.4 MB | 0/1.9 MB | 23/908 kBProgress (3): 1.4 MB | 0/1.9 MB | 24/908 kBProgress (3): 1.4 MB | 0/1.9 MB | 25/908 kBProgress (3): 1.4 MB | 0/1.9 MB | 26/908 kBProgress (3): 1.4 MB | 0/1.9 MB | 27/908 kBProgress (3): 1.4 MB | 0/1.9 MB | 29/908 kBProgress (3): 1.4 MB | 0/1.9 MB | 30/908 kBProgress (3): 1.4 MB | 0/1.9 MB | 31/908 kB                                           Downloaded from central: https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.jar (1.4 MB at 15 MB/s)
+Progress (2): 0/1.9 MB | 33/908 kB                                  Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/5.3.1/httpcore5-h2-5.3.1.jar
+Progress (2): 0/1.9 MB | 34/908 kBProgress (2): 0/1.9 MB | 36/908 kBProgress (2): 0/1.9 MB | 37/908 kBProgress (2): 0/1.9 MB | 38/908 kBProgress (2): 0/1.9 MB | 40/908 kBProgress (2): 0/1.9 MB | 41/908 kBProgress (2): 0/1.9 MB | 42/908 kBProgress (3): 0/1.9 MB | 42/908 kB | 0.9/906 kBProgress (3): 0/1.9 MB | 42/908 kB | 2.3/906 kBProgress (3): 0/1.9 MB | 42/908 kB | 3.6/906 kBProgress (3): 0/1.9 MB | 42/908 kB | 5.0/906 kBProgress (3): 0/1.9 MB | 42/908 kB | 6.4/906 kBProgress (3): 0/1.9 MB | 42/908 kB | 7.7/906 kBProgress (3): 0/1.9 MB | 42/908 kB | 9.1/906 kBProgress (3): 0/1.9 MB | 42/908 kB | 10/906 kB Progress (3): 0/1.9 MB | 42/908 kB | 12/906 kBProgress (3): 0/1.9 MB | 42/908 kB | 13/906 kBProgress (3): 0/1.9 MB | 42/908 kB | 15/906 kBProgress (3): 0/1.9 MB | 42/908 kB | 16/906 kBProgress (3): 0/1.9 MB | 42/908 kB | 17/906 kBProgress (3): 0/1.9 MB | 42/908 kB | 19/906 kBProgress (3): 0/1.9 MB | 42/908 kB | 20/906 kBProgress (3): 0/1.9 MB | 42/908 kB | 21/906 kBProgress (3): 0/1.9 MB | 42/908 kB | 23/906 kBProgress (3): 0/1.9 MB | 42/908 kB | 24/906 kBProgress (3): 0/1.9 MB | 42/908 kB | 25/906 kBProgress (3): 0/1.9 MB | 42/908 kB | 26/906 kBProgress (3): 0/1.9 MB | 42/908 kB | 27/906 kBProgress (3): 0/1.9 MB | 42/908 kB | 29/906 kBProgress (3): 0/1.9 MB | 42/908 kB | 30/906 kBProgress (3): 0/1.9 MB | 42/908 kB | 31/906 kBProgress (3): 0/1.9 MB | 42/908 kB | 33/906 kBProgress (3): 0/1.9 MB | 42/908 kB | 34/906 kBProgress (3): 0/1.9 MB | 42/908 kB | 36/906 kBProgress (3): 0/1.9 MB | 42/908 kB | 37/906 kBProgress (3): 0/1.9 MB | 42/908 kB | 38/906 kBProgress (3): 0/1.9 MB | 42/908 kB | 40/906 kBProgress (3): 0/1.9 MB | 42/908 kB | 41/906 kBProgress (3): 0/1.9 MB | 42/908 kB | 42/906 kBProgress (3): 0/1.9 MB | 42/908 kB | 42/906 kBProgress (3): 0/1.9 MB | 42/908 kB | 42/906 kBProgress (3): 0/1.9 MB | 42/908 kB | 42/906 kBProgress (3): 0/1.9 MB | 42/908 kB | 42/906 kBProgress (3): 0/1.9 MB | 42/908 kB | 42/906 kBProgress (3): 0/1.9 MB | 42/908 kB | 42/906 kBProgress (3): 0.1/1.9 MB | 42/908 kB | 42/906 kBProgress (3): 0.1/1.9 MB | 44/908 kB | 42/906 kBProgress (3): 0.1/1.9 MB | 45/908 kB | 42/906 kBProgress (3): 0.1/1.9 MB | 46/908 kB | 42/906 kBProgress (3): 0.1/1.9 MB | 48/908 kB | 42/906 kBProgress (3): 0.1/1.9 MB | 49/908 kB | 42/906 kBProgress (3): 0.1/1.9 MB | 51/908 kB | 42/906 kBProgress (3): 0.1/1.9 MB | 52/908 kB | 42/906 kBProgress (3): 0.1/1.9 MB | 53/908 kB | 42/906 kBProgress (3): 0.1/1.9 MB | 55/908 kB | 42/906 kBProgress (3): 0.1/1.9 MB | 57/908 kB | 42/906 kBProgress (3): 0.1/1.9 MB | 57/908 kB | 42/906 kBProgress (3): 0.1/1.9 MB | 57/908 kB | 42/906 kBProgress (3): 0.1/1.9 MB | 62/908 kB | 42/906 kBProgress (3): 0.1/1.9 MB | 62/908 kB | 42/906 kBProgress (3): 0.1/1.9 MB | 62/908 kB | 42/906 kBProgress (3): 0.1/1.9 MB | 62/908 kB | 42/906 kBProgress (3): 0.1/1.9 MB | 62/908 kB | 42/906 kBProgress (3): 0.1/1.9 MB | 62/908 kB | 42/906 kBProgress (3): 0.1/1.9 MB | 66/908 kB | 42/906 kBProgress (3): 0.1/1.9 MB | 66/908 kB | 42/906 kBProgress (3): 0.1/1.9 MB | 70/908 kB | 42/906 kBProgress (3): 0.1/1.9 MB | 70/908 kB | 42/906 kBProgress (3): 0.1/1.9 MB | 74/908 kB | 42/906 kBProgress (3): 0.1/1.9 MB | 74/908 kB | 42/906 kBProgress (3): 0.1/1.9 MB | 74/908 kB | 42/906 kBProgress (3): 0.1/1.9 MB | 78/908 kB | 42/906 kBProgress (3): 0.1/1.9 MB | 78/908 kB | 42/906 kBProgress (3): 0.1/1.9 MB | 78/908 kB | 44/906 kBProgress (3): 0.1/1.9 MB | 83/908 kB | 44/906 kBProgress (3): 0.1/1.9 MB | 83/908 kB | 45/906 kBProgress (3): 0.1/1.9 MB | 83/908 kB | 45/906 kBProgress (3): 0.1/1.9 MB | 83/908 kB | 46/906 kBProgress (3): 0.1/1.9 MB | 87/908 kB | 46/906 kBProgress (3): 0.1/1.9 MB | 87/908 kB | 48/906 kBProgress (3): 0.1/1.9 MB | 90/908 kB | 48/906 kBProgress (3): 0.1/1.9 MB | 90/908 kB | 48/906 kBProgress (3): 0.1/1.9 MB | 90/908 kB | 49/906 kBProgress (3): 0.1/1.9 MB | 94/908 kB | 49/906 kBProgress (3): 0.1/1.9 MB | 94/908 kB | 49/906 kBProgress (3): 0.1/1.9 MB | 94/908 kB | 51/906 kBProgress (3): 0.1/1.9 MB | 94/908 kB | 52/906 kBProgress (3): 0.1/1.9 MB | 99/908 kB | 52/906 kBProgress (3): 0.1/1.9 MB | 99/908 kB | 52/906 kBProgress (3): 0.1/1.9 MB | 99/908 kB | 53/906 kBProgress (3): 0.1/1.9 MB | 99/908 kB | 55/906 kBProgress (3): 0.1/1.9 MB | 99/908 kB | 55/906 kBProgress (3): 0.1/1.9 MB | 103/908 kB | 55/906 kBProgress (3): 0.1/1.9 MB | 103/908 kB | 57/906 kBProgress (3): 0.1/1.9 MB | 107/908 kB | 57/906 kBProgress (3): 0.1/1.9 MB | 107/908 kB | 57/906 kBProgress (3): 0.1/1.9 MB | 107/908 kB | 62/906 kBProgress (3): 0.1/1.9 MB | 111/908 kB | 62/906 kBProgress (3): 0.1/1.9 MB | 111/908 kB | 62/906 kBProgress (3): 0.1/1.9 MB | 111/908 kB | 66/906 kBProgress (3): 0.1/1.9 MB | 115/908 kB | 66/906 kBProgress (3): 0.1/1.9 MB | 115/908 kB | 66/906 kBProgress (3): 0.1/1.9 MB | 115/908 kB | 66/906 kBProgress (3): 0.1/1.9 MB | 120/908 kB | 66/906 kBProgress (3): 0.1/1.9 MB | 120/908 kB | 70/906 kBProgress (3): 0.1/1.9 MB | 123/908 kB | 70/906 kBProgress (3): 0.1/1.9 MB | 123/908 kB | 70/906 kBProgress (3): 0.1/1.9 MB | 123/908 kB | 74/906 kBProgress (3): 0.1/1.9 MB | 127/908 kB | 74/906 kBProgress (3): 0.1/1.9 MB | 127/908 kB | 74/906 kBProgress (3): 0.1/1.9 MB | 131/908 kB | 74/906 kBProgress (3): 0.1/1.9 MB | 131/908 kB | 78/906 kBProgress (3): 0.1/1.9 MB | 131/908 kB | 80/906 kBProgress (3): 0.1/1.9 MB | 136/908 kB | 80/906 kBProgress (3): 0.1/1.9 MB | 136/908 kB | 80/906 kBProgress (3): 0.1/1.9 MB | 140/908 kB | 80/906 kBProgress (3): 0.1/1.9 MB | 140/908 kB | 84/906 kBProgress (3): 0.1/1.9 MB | 140/908 kB | 84/906 kBProgress (3): 0.1/1.9 MB | 144/908 kB | 84/906 kBProgress (3): 0.1/1.9 MB | 144/908 kB | 88/906 kBProgress (3): 0.1/1.9 MB | 144/908 kB | 88/906 kBProgress (3): 0.1/1.9 MB | 148/908 kB | 88/906 kBProgress (3): 0.2/1.9 MB | 148/908 kB | 88/906 kBProgress (3): 0.2/1.9 MB | 152/908 kB | 88/906 kBProgress (3): 0.2/1.9 MB | 152/908 kB | 88/906 kBProgress (3): 0.2/1.9 MB | 156/908 kB | 88/906 kBProgress (3): 0.2/1.9 MB | 156/908 kB | 88/906 kBProgress (3): 0.2/1.9 MB | 160/908 kB | 88/906 kBProgress (3): 0.2/1.9 MB | 160/908 kB | 88/906 kBProgress (3): 0.2/1.9 MB | 164/908 kB | 88/906 kBProgress (3): 0.2/1.9 MB | 168/908 kB | 88/906 kBProgress (3): 0.2/1.9 MB | 168/908 kB | 88/906 kBProgress (3): 0.2/1.9 MB | 173/908 kB | 88/906 kBProgress (3): 0.2/1.9 MB | 173/908 kB | 88/906 kBProgress (3): 0.2/1.9 MB | 177/908 kB | 88/906 kBProgress (3): 0.2/1.9 MB | 177/908 kB | 88/906 kBProgress (3): 0.2/1.9 MB | 181/908 kB | 88/906 kBProgress (3): 0.2/1.9 MB | 181/908 kB | 88/906 kBProgress (3): 0.2/1.9 MB | 185/908 kB | 88/906 kBProgress (3): 0.2/1.9 MB | 185/908 kB | 88/906 kBProgress (3): 0.2/1.9 MB | 188/908 kB | 88/906 kBProgress (4): 0.2/1.9 MB | 188/908 kB | 88/906 kB | 3.8/241 kBProgress (4): 0.2/1.9 MB | 193/908 kB | 88/906 kB | 3.8/241 kBProgress (4): 0.2/1.9 MB | 193/908 kB | 88/906 kB | 3.8/241 kBProgress (4): 0.2/1.9 MB | 197/908 kB | 88/906 kB | 3.8/241 kBProgress (4): 0.2/1.9 MB | 197/908 kB | 88/906 kB | 3.8/241 kBProgress (4): 0.2/1.9 MB | 201/908 kB | 88/906 kB | 3.8/241 kBProgress (4): 0.2/1.9 MB | 201/908 kB | 88/906 kB | 3.8/241 kBProgress (4): 0.2/1.9 MB | 205/908 kB | 88/906 kB | 3.8/241 kBProgress (4): 0.2/1.9 MB | 205/908 kB | 88/906 kB | 20/241 kB Progress (4): 0.2/1.9 MB | 205/908 kB | 88/906 kB | 20/241 kBProgress (4): 0.2/1.9 MB | 210/908 kB | 88/906 kB | 20/241 kBProgress (4): 0.2/1.9 MB | 210/908 kB | 88/906 kB | 20/241 kBProgress (4): 0.2/1.9 MB | 214/908 kB | 88/906 kB | 20/241 kBProgress (4): 0.2/1.9 MB | 214/908 kB | 88/906 kB | 20/241 kBProgress (4): 0.2/1.9 MB | 214/908 kB | 88/906 kB | 37/241 kBProgress (4): 0.2/1.9 MB | 218/908 kB | 88/906 kB | 37/241 kBProgress (4): 0.2/1.9 MB | 218/908 kB | 93/906 kB | 37/241 kBProgress (4): 0.2/1.9 MB | 218/908 kB | 93/906 kB | 37/241 kBProgress (4): 0.2/1.9 MB | 221/908 kB | 93/906 kB | 37/241 kBProgress (4): 0.2/1.9 MB | 221/908 kB | 96/906 kB | 37/241 kBProgress (4): 0.2/1.9 MB | 221/908 kB | 96/906 kB | 37/241 kBProgress (4): 0.2/1.9 MB | 221/908 kB | 101/906 kB | 37/241 kBProgress (4): 0.2/1.9 MB | 221/908 kB | 101/906 kB | 53/241 kBProgress (4): 0.2/1.9 MB | 238/908 kB | 101/906 kB | 53/241 kBProgress (4): 0.2/1.9 MB | 238/908 kB | 105/906 kB | 53/241 kBProgress (4): 0.2/1.9 MB | 238/908 kB | 109/906 kB | 53/241 kBProgress (4): 0.2/1.9 MB | 238/908 kB | 109/906 kB | 53/241 kBProgress (4): 0.2/1.9 MB | 238/908 kB | 113/906 kB | 53/241 kBProgress (4): 0.2/1.9 MB | 254/908 kB | 113/906 kB | 53/241 kBProgress (4): 0.2/1.9 MB | 254/908 kB | 113/906 kB | 69/241 kBProgress (4): 0.2/1.9 MB | 254/908 kB | 117/906 kB | 69/241 kBProgress (4): 0.2/1.9 MB | 254/908 kB | 122/906 kB | 69/241 kBProgress (4): 0.2/1.9 MB | 254/908 kB | 122/906 kB | 69/241 kBProgress (4): 0.2/1.9 MB | 254/908 kB | 126/906 kB | 69/241 kBProgress (4): 0.2/1.9 MB | 270/908 kB | 126/906 kB | 69/241 kBProgress (4): 0.2/1.9 MB | 270/908 kB | 126/906 kB | 86/241 kBProgress (4): 0.2/1.9 MB | 270/908 kB | 129/906 kB | 86/241 kBProgress (4): 0.2/1.9 MB | 270/908 kB | 129/906 kB | 89/241 kBProgress (4): 0.2/1.9 MB | 270/908 kB | 133/906 kB | 89/241 kBProgress (4): 0.3/1.9 MB | 270/908 kB | 133/906 kB | 89/241 kBProgress (4): 0.3/1.9 MB | 287/908 kB | 133/906 kB | 89/241 kBProgress (4): 0.3/1.9 MB | 287/908 kB | 133/906 kB | 106/241 kBProgress (4): 0.3/1.9 MB | 287/908 kB | 133/906 kB | 106/241 kBProgress (4): 0.3/1.9 MB | 287/908 kB | 133/906 kB | 106/241 kBProgress (4): 0.3/1.9 MB | 287/908 kB | 133/906 kB | 122/241 kBProgress (4): 0.3/1.9 MB | 303/908 kB | 133/906 kB | 122/241 kBProgress (4): 0.3/1.9 MB | 303/908 kB | 133/906 kB | 122/241 kBProgress (4): 0.3/1.9 MB | 319/908 kB | 133/906 kB | 122/241 kBProgress (4): 0.3/1.9 MB | 319/908 kB | 133/906 kB | 139/241 kBProgress (4): 0.3/1.9 MB | 319/908 kB | 133/906 kB | 139/241 kBProgress (4): 0.3/1.9 MB | 336/908 kB | 133/906 kB | 139/241 kBProgress (4): 0.3/1.9 MB | 336/908 kB | 133/906 kB | 155/241 kBProgress (4): 0.3/1.9 MB | 336/908 kB | 133/906 kB | 155/241 kBProgress (4): 0.3/1.9 MB | 352/908 kB | 133/906 kB | 155/241 kBProgress (4): 0.3/1.9 MB | 352/908 kB | 133/906 kB | 171/241 kBProgress (4): 0.4/1.9 MB | 352/908 kB | 133/906 kB | 171/241 kBProgress (4): 0.4/1.9 MB | 369/908 kB | 133/906 kB | 171/241 kBProgress (4): 0.4/1.9 MB | 369/908 kB | 133/906 kB | 188/241 kBProgress (4): 0.4/1.9 MB | 369/908 kB | 138/906 kB | 188/241 kBProgress (4): 0.4/1.9 MB | 369/908 kB | 138/906 kB | 188/241 kBProgress (4): 0.4/1.9 MB | 369/908 kB | 142/906 kB | 188/241 kBProgress (4): 0.4/1.9 MB | 369/908 kB | 146/906 kB | 188/241 kBProgress (4): 0.4/1.9 MB | 385/908 kB | 146/906 kB | 188/241 kBProgress (4): 0.4/1.9 MB | 385/908 kB | 146/906 kB | 204/241 kBProgress (4): 0.4/1.9 MB | 385/908 kB | 150/906 kB | 204/241 kBProgress (4): 0.4/1.9 MB | 385/908 kB | 150/906 kB | 209/241 kBProgress (4): 0.4/1.9 MB | 385/908 kB | 154/906 kB | 209/241 kBProgress (4): 0.4/1.9 MB | 385/908 kB | 154/906 kB | 209/241 kBProgress (4): 0.4/1.9 MB | 385/908 kB | 158/906 kB | 209/241 kBProgress (4): 0.4/1.9 MB | 400/908 kB | 158/906 kB | 209/241 kBProgress (4): 0.4/1.9 MB | 400/908 kB | 158/906 kB | 225/241 kBProgress (4): 0.4/1.9 MB | 400/908 kB | 162/906 kB | 225/241 kBProgress (4): 0.4/1.9 MB | 400/908 kB | 162/906 kB | 225/241 kBProgress (4): 0.4/1.9 MB | 400/908 kB | 166/906 kB | 225/241 kBProgress (4): 0.4/1.9 MB | 400/908 kB | 171/906 kB | 225/241 kBProgress (4): 0.4/1.9 MB | 417/908 kB | 171/906 kB | 225/241 kBProgress (4): 0.4/1.9 MB | 417/908 kB | 171/906 kB | 241 kB    Progress (4): 0.4/1.9 MB | 417/908 kB | 175/906 kB | 241 kBProgress (4): 0.4/1.9 MB | 417/908 kB | 178/906 kB | 241 kBProgress (4): 0.4/1.9 MB | 417/908 kB | 178/906 kB | 241 kBProgress (4): 0.4/1.9 MB | 417/908 kB | 182/906 kB | 241 kBProgress (4): 0.4/1.9 MB | 433/908 kB | 182/906 kB | 241 kBProgress (4): 0.4/1.9 MB | 433/908 kB | 187/906 kB | 241 kB                                                           Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/5.3.1/httpcore5-h2-5.3.1.jar (241 kB at 1.4 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/tomlj/tomlj/1.0.0/tomlj-1.0.0.jar
+Progress (3): 0.4/1.9 MB | 433/908 kB | 191/906 kBProgress (3): 0.4/1.9 MB | 433/908 kB | 191/906 kBProgress (3): 0.4/1.9 MB | 433/908 kB | 195/906 kBProgress (3): 0.4/1.9 MB | 433/908 kB | 195/906 kBProgress (3): 0.4/1.9 MB | 449/908 kB | 195/906 kBProgress (3): 0.4/1.9 MB | 449/908 kB | 199/906 kBProgress (3): 0.4/1.9 MB | 449/908 kB | 204/906 kBProgress (3): 0.4/1.9 MB | 449/908 kB | 208/906 kBProgress (3): 0.5/1.9 MB | 449/908 kB | 208/906 kBProgress (3): 0.5/1.9 MB | 466/908 kB | 208/906 kBProgress (3): 0.5/1.9 MB | 466/908 kB | 212/906 kBProgress (3): 0.5/1.9 MB | 466/908 kB | 216/906 kBProgress (3): 0.5/1.9 MB | 482/908 kB | 216/906 kBProgress (3): 0.5/1.9 MB | 482/908 kB | 216/906 kBProgress (3): 0.5/1.9 MB | 482/908 kB | 227/906 kBProgress (3): 0.5/1.9 MB | 498/908 kB | 227/906 kBProgress (3): 0.5/1.9 MB | 498/908 kB | 227/906 kBProgress (3): 0.5/1.9 MB | 515/908 kB | 227/906 kBProgress (3): 0.5/1.9 MB | 515/908 kB | 244/906 kBProgress (3): 0.5/1.9 MB | 515/908 kB | 244/906 kBProgress (3): 0.5/1.9 MB | 531/908 kB | 244/906 kBProgress (3): 0.5/1.9 MB | 531/908 kB | 260/906 kBProgress (4): 0.5/1.9 MB | 531/908 kB | 260/906 kB | 0/1.1 MBProgress (4): 0.5/1.9 MB | 531/908 kB | 260/906 kB | 0/1.1 MBProgress (4): 0.5/1.9 MB | 531/908 kB | 260/906 kB | 0/1.1 MBProgress (4): 0.5/1.9 MB | 531/908 kB | 260/906 kB | 0/1.1 MBProgress (4): 0.5/1.9 MB | 531/908 kB | 260/906 kB | 0/1.1 MBProgress (4): 0.5/1.9 MB | 531/908 kB | 260/906 kB | 0/1.1 MBProgress (4): 0.5/1.9 MB | 548/908 kB | 260/906 kB | 0/1.1 MBProgress (4): 0.5/1.9 MB | 548/908 kB | 260/906 kB | 0/1.1 MBProgress (4): 0.5/1.9 MB | 548/908 kB | 260/906 kB | 0/1.1 MBProgress (4): 0.5/1.9 MB | 548/908 kB | 260/906 kB | 0/1.1 MBProgress (4): 0.5/1.9 MB | 548/908 kB | 260/906 kB | 0/1.1 MBProgress (4): 0.5/1.9 MB | 548/908 kB | 260/906 kB | 0/1.1 MBProgress (4): 0.5/1.9 MB | 548/908 kB | 260/906 kB | 0/1.1 MBProgress (4): 0.5/1.9 MB | 548/908 kB | 260/906 kB | 0/1.1 MBProgress (4): 0.5/1.9 MB | 548/908 kB | 260/906 kB | 0/1.1 MBProgress (4): 0.6/1.9 MB | 548/908 kB | 260/906 kB | 0/1.1 MBProgress (4): 0.6/1.9 MB | 564/908 kB | 260/906 kB | 0/1.1 MBProgress (4): 0.6/1.9 MB | 564/908 kB | 260/906 kB | 0/1.1 MBProgress (4): 0.6/1.9 MB | 564/908 kB | 260/906 kB | 0/1.1 MBProgress (4): 0.6/1.9 MB | 564/908 kB | 260/906 kB | 0/1.1 MBProgress (4): 0.6/1.9 MB | 564/908 kB | 260/906 kB | 0/1.1 MBProgress (4): 0.6/1.9 MB | 564/908 kB | 260/906 kB | 0/1.1 MBProgress (4): 0.6/1.9 MB | 564/908 kB | 260/906 kB | 0/1.1 MBProgress (4): 0.6/1.9 MB | 564/908 kB | 260/906 kB | 0/1.1 MBProgress (4): 0.6/1.9 MB | 564/908 kB | 260/906 kB | 0/1.1 MBProgress (4): 0.6/1.9 MB | 580/908 kB | 260/906 kB | 0/1.1 MBProgress (4): 0.6/1.9 MB | 580/908 kB | 260/906 kB | 0/1.1 MBProgress (4): 0.6/1.9 MB | 580/908 kB | 260/906 kB | 0/1.1 MBProgress (4): 0.6/1.9 MB | 580/908 kB | 277/906 kB | 0/1.1 MBProgress (4): 0.6/1.9 MB | 580/908 kB | 277/906 kB | 0/1.1 MBProgress (4): 0.6/1.9 MB | 580/908 kB | 277/906 kB | 0/1.1 MBProgress (4): 0.6/1.9 MB | 580/908 kB | 277/906 kB | 0/1.1 MBProgress (4): 0.6/1.9 MB | 580/908 kB | 277/906 kB | 0/1.1 MBProgress (4): 0.6/1.9 MB | 580/908 kB | 277/906 kB | 0/1.1 MBProgress (4): 0.6/1.9 MB | 580/908 kB | 277/906 kB | 0/1.1 MBProgress (4): 0.6/1.9 MB | 597/908 kB | 277/906 kB | 0/1.1 MBProgress (4): 0.6/1.9 MB | 597/908 kB | 277/906 kB | 0/1.1 MBProgress (4): 0.6/1.9 MB | 597/908 kB | 277/906 kB | 0/1.1 MBProgress (4): 0.6/1.9 MB | 597/908 kB | 277/906 kB | 0/1.1 MBProgress (4): 0.6/1.9 MB | 597/908 kB | 277/906 kB | 0/1.1 MBProgress (4): 0.6/1.9 MB | 597/908 kB | 277/906 kB | 0/1.1 MBProgress (4): 0.6/1.9 MB | 597/908 kB | 277/906 kB | 0/1.1 MBProgress (4): 0.6/1.9 MB | 613/908 kB | 277/906 kB | 0/1.1 MBProgress (4): 0.6/1.9 MB | 613/908 kB | 277/906 kB | 0/1.1 MBProgress (4): 0.6/1.9 MB | 630/908 kB | 277/906 kB | 0/1.1 MBProgress (4): 0.6/1.9 MB | 630/908 kB | 293/906 kB | 0/1.1 MBProgress (4): 0.6/1.9 MB | 630/908 kB | 293/906 kB | 0/1.1 MBProgress (4): 0.6/1.9 MB | 646/908 kB | 293/906 kB | 0/1.1 MBProgress (4): 0.7/1.9 MB | 646/908 kB | 293/906 kB | 0/1.1 MBProgress (4): 0.7/1.9 MB | 662/908 kB | 293/906 kB | 0/1.1 MBProgress (4): 0.7/1.9 MB | 662/908 kB | 293/906 kB | 0/1.1 MBProgress (4): 0.7/1.9 MB | 679/908 kB | 293/906 kB | 0/1.1 MBProgress (4): 0.7/1.9 MB | 679/908 kB | 309/906 kB | 0/1.1 MBProgress (4): 0.7/1.9 MB | 679/908 kB | 309/906 kB | 0/1.1 MBProgress (4): 0.7/1.9 MB | 695/908 kB | 309/906 kB | 0/1.1 MBProgress (4): 0.7/1.9 MB | 711/908 kB | 309/906 kB | 0/1.1 MBProgress (4): 0.7/1.9 MB | 711/908 kB | 309/906 kB | 0/1.1 MBProgress (4): 0.7/1.9 MB | 711/908 kB | 326/906 kB | 0/1.1 MBProgress (4): 0.7/1.9 MB | 711/908 kB | 326/906 kB | 0/1.1 MBProgress (4): 0.7/1.9 MB | 728/908 kB | 326/906 kB | 0/1.1 MBProgress (4): 0.7/1.9 MB | 744/908 kB | 326/906 kB | 0/1.1 MBProgress (4): 0.7/1.9 MB | 744/908 kB | 326/906 kB | 0/1.1 MBProgress (4): 0.7/1.9 MB | 761/908 kB | 326/906 kB | 0/1.1 MBProgress (4): 0.7/1.9 MB | 761/908 kB | 342/906 kB | 0/1.1 MBProgress (4): 0.8/1.9 MB | 761/908 kB | 342/906 kB | 0/1.1 MBProgress (4): 0.8/1.9 MB | 777/908 kB | 342/906 kB | 0/1.1 MBProgress (4): 0.8/1.9 MB | 777/908 kB | 342/906 kB | 0/1.1 MBProgress (4): 0.8/1.9 MB | 793/908 kB | 342/906 kB | 0/1.1 MBProgress (4): 0.8/1.9 MB | 793/908 kB | 342/906 kB | 0/1.1 MBProgress (4): 0.8/1.9 MB | 793/908 kB | 342/906 kB | 0/1.1 MBProgress (4): 0.8/1.9 MB | 793/908 kB | 342/906 kB | 0/1.1 MBProgress (4): 0.8/1.9 MB | 810/908 kB | 342/906 kB | 0/1.1 MBProgress (4): 0.8/1.9 MB | 810/908 kB | 358/906 kB | 0/1.1 MBProgress (4): 0.8/1.9 MB | 810/908 kB | 358/906 kB | 0/1.1 MBProgress (4): 0.8/1.9 MB | 810/908 kB | 358/906 kB | 0/1.1 MBProgress (4): 0.8/1.9 MB | 810/908 kB | 358/906 kB | 0/1.1 MBProgress (4): 0.8/1.9 MB | 810/908 kB | 358/906 kB | 0/1.1 MBProgress (4): 0.8/1.9 MB | 826/908 kB | 358/906 kB | 0/1.1 MBProgress (4): 0.8/1.9 MB | 826/908 kB | 358/906 kB | 0/1.1 MBProgress (4): 0.8/1.9 MB | 826/908 kB | 358/906 kB | 0.1/1.1 MBProgress (4): 0.8/1.9 MB | 826/908 kB | 358/906 kB | 0.1/1.1 MBProgress (4): 0.8/1.9 MB | 826/908 kB | 358/906 kB | 0.1/1.1 MBProgress (4): 0.8/1.9 MB | 826/908 kB | 375/906 kB | 0.1/1.1 MBProgress (4): 0.8/1.9 MB | 826/908 kB | 375/906 kB | 0.1/1.1 MBProgress (4): 0.8/1.9 MB | 842/908 kB | 375/906 kB | 0.1/1.1 MBProgress (4): 0.8/1.9 MB | 842/908 kB | 375/906 kB | 0.1/1.1 MBProgress (4): 0.8/1.9 MB | 859/908 kB | 375/906 kB | 0.1/1.1 MBProgress (4): 0.9/1.9 MB | 859/908 kB | 375/906 kB | 0.1/1.1 MBProgress (4): 0.9/1.9 MB | 875/908 kB | 375/906 kB | 0.1/1.1 MBProgress (4): 0.9/1.9 MB | 875/908 kB | 391/906 kB | 0.1/1.1 MBProgress (4): 0.9/1.9 MB | 875/908 kB | 391/906 kB | 0.1/1.1 MBProgress (4): 0.9/1.9 MB | 892/908 kB | 391/906 kB | 0.1/1.1 MBProgress (4): 0.9/1.9 MB | 892/908 kB | 391/906 kB | 0.1/1.1 MBProgress (4): 0.9/1.9 MB | 908/908 kB | 391/906 kB | 0.1/1.1 MBProgress (4): 0.9/1.9 MB | 908 kB | 391/906 kB | 0.1/1.1 MB    Progress (4): 0.9/1.9 MB | 908 kB | 391/906 kB | 0.1/1.1 MBProgress (4): 0.9/1.9 MB | 908 kB | 391/906 kB | 0.1/1.1 MBProgress (4): 0.9/1.9 MB | 908 kB | 391/906 kB | 0.1/1.1 MB                                                           Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5/5.4.1/httpclient5-5.4.1.jar (908 kB at 4.8 MB/s)
+Progress (3): 0.9/1.9 MB | 391/906 kB | 0.1/1.1 MB                                                  Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-runtime/4.7.2/antlr4-runtime-4.7.2.jar
+Progress (3): 0.9/1.9 MB | 408/906 kB | 0.1/1.1 MBProgress (3): 0.9/1.9 MB | 408/906 kB | 0.1/1.1 MBProgress (3): 0.9/1.9 MB | 408/906 kB | 0.1/1.1 MBProgress (3): 0.9/1.9 MB | 408/906 kB | 0.1/1.1 MBProgress (3): 0.9/1.9 MB | 408/906 kB | 0.1/1.1 MBProgress (3): 0.9/1.9 MB | 408/906 kB | 0.1/1.1 MBProgress (3): 0.9/1.9 MB | 424/906 kB | 0.1/1.1 MBProgress (3): 0.9/1.9 MB | 424/906 kB | 0.1/1.1 MBProgress (3): 0.9/1.9 MB | 424/906 kB | 0.1/1.1 MBProgress (3): 0.9/1.9 MB | 424/906 kB | 0.1/1.1 MBProgress (3): 1.0/1.9 MB | 424/906 kB | 0.1/1.1 MBProgress (3): 1.0/1.9 MB | 440/906 kB | 0.1/1.1 MBProgress (3): 1.0/1.9 MB | 440/906 kB | 0.1/1.1 MBProgress (3): 1.0/1.9 MB | 440/906 kB | 0.1/1.1 MBProgress (3): 1.0/1.9 MB | 440/906 kB | 0.1/1.1 MBProgress (3): 1.0/1.9 MB | 457/906 kB | 0.1/1.1 MBProgress (3): 1.0/1.9 MB | 457/906 kB | 0.1/1.1 MBProgress (3): 1.0/1.9 MB | 457/906 kB | 0.1/1.1 MBProgress (3): 1.0/1.9 MB | 473/906 kB | 0.1/1.1 MBProgress (3): 1.0/1.9 MB | 473/906 kB | 0.1/1.1 MBProgress (3): 1.1/1.9 MB | 473/906 kB | 0.1/1.1 MBProgress (3): 1.1/1.9 MB | 490/906 kB | 0.1/1.1 MBProgress (3): 1.1/1.9 MB | 490/906 kB | 0.1/1.1 MBProgress (3): 1.1/1.9 MB | 490/906 kB | 0.1/1.1 MBProgress (3): 1.1/1.9 MB | 490/906 kB | 0.1/1.1 MBProgress (3): 1.1/1.9 MB | 490/906 kB | 0.1/1.1 MBProgress (3): 1.1/1.9 MB | 490/906 kB | 0.1/1.1 MBProgress (3): 1.2/1.9 MB | 490/906 kB | 0.1/1.1 MBProgress (3): 1.2/1.9 MB | 490/906 kB | 0.1/1.1 MBProgress (3): 1.2/1.9 MB | 490/906 kB | 0.1/1.1 MBProgress (3): 1.2/1.9 MB | 490/906 kB | 0.1/1.1 MBProgress (3): 1.2/1.9 MB | 490/906 kB | 0.1/1.1 MBProgress (3): 1.2/1.9 MB | 506/906 kB | 0.1/1.1 MBProgress (3): 1.2/1.9 MB | 506/906 kB | 0.1/1.1 MBProgress (3): 1.2/1.9 MB | 506/906 kB | 0.1/1.1 MBProgress (3): 1.2/1.9 MB | 506/906 kB | 0.1/1.1 MBProgress (4): 1.2/1.9 MB | 506/906 kB | 0.1/1.1 MB | 7.7/338 kBProgress (4): 1.2/1.9 MB | 506/906 kB | 0.1/1.1 MB | 16/338 kB Progress (4): 1.2/1.9 MB | 506/906 kB | 0.1/1.1 MB | 16/338 kBProgress (5): 1.2/1.9 MB | 506/906 kB | 0.1/1.1 MB | 16/338 kB | 7.7/157 kBProgress (5): 1.2/1.9 MB | 506/906 kB | 0.1/1.1 MB | 16/338 kB | 16/157 kB Progress (5): 1.2/1.9 MB | 506/906 kB | 0.1/1.1 MB | 16/338 kB | 16/157 kBProgress (5): 1.3/1.9 MB | 506/906 kB | 0.1/1.1 MB | 16/338 kB | 16/157 kBProgress (5): 1.3/1.9 MB | 522/906 kB | 0.1/1.1 MB | 16/338 kB | 16/157 kBProgress (5): 1.3/1.9 MB | 522/906 kB | 0.1/1.1 MB | 16/338 kB | 20/157 kBProgress (5): 1.3/1.9 MB | 522/906 kB | 0.1/1.1 MB | 16/338 kB | 20/157 kBProgress (5): 1.3/1.9 MB | 522/906 kB | 0.1/1.1 MB | 16/338 kB | 20/157 kBProgress (5): 1.3/1.9 MB | 522/906 kB | 0.1/1.1 MB | 32/338 kB | 20/157 kBProgress (5): 1.3/1.9 MB | 522/906 kB | 0.1/1.1 MB | 32/338 kB | 20/157 kBProgress (5): 1.3/1.9 MB | 522/906 kB | 0.1/1.1 MB | 32/338 kB | 36/157 kBProgress (5): 1.3/1.9 MB | 522/906 kB | 0.1/1.1 MB | 32/338 kB | 36/157 kBProgress (5): 1.3/1.9 MB | 522/906 kB | 0.1/1.1 MB | 32/338 kB | 36/157 kBProgress (5): 1.3/1.9 MB | 539/906 kB | 0.1/1.1 MB | 32/338 kB | 36/157 kBProgress (5): 1.3/1.9 MB | 539/906 kB | 0.1/1.1 MB | 32/338 kB | 36/157 kBProgress (5): 1.3/1.9 MB | 539/906 kB | 0.1/1.1 MB | 32/338 kB | 36/157 kBProgress (5): 1.3/1.9 MB | 539/906 kB | 0.1/1.1 MB | 49/338 kB | 36/157 kBProgress (5): 1.3/1.9 MB | 539/906 kB | 0.1/1.1 MB | 49/338 kB | 36/157 kBProgress (5): 1.3/1.9 MB | 539/906 kB | 0.1/1.1 MB | 49/338 kB | 53/157 kBProgress (5): 1.3/1.9 MB | 539/906 kB | 0.1/1.1 MB | 49/338 kB | 53/157 kBProgress (5): 1.3/1.9 MB | 555/906 kB | 0.1/1.1 MB | 49/338 kB | 53/157 kBProgress (5): 1.3/1.9 MB | 555/906 kB | 0.1/1.1 MB | 49/338 kB | 53/157 kBProgress (5): 1.3/1.9 MB | 555/906 kB | 0.1/1.1 MB | 49/338 kB | 53/157 kBProgress (5): 1.3/1.9 MB | 555/906 kB | 0.1/1.1 MB | 65/338 kB | 53/157 kBProgress (5): 1.3/1.9 MB | 555/906 kB | 0.1/1.1 MB | 65/338 kB | 53/157 kBProgress (5): 1.3/1.9 MB | 555/906 kB | 0.1/1.1 MB | 65/338 kB | 69/157 kBProgress (5): 1.3/1.9 MB | 555/906 kB | 0.1/1.1 MB | 65/338 kB | 69/157 kBProgress (5): 1.3/1.9 MB | 555/906 kB | 0.1/1.1 MB | 65/338 kB | 69/157 kBProgress (5): 1.3/1.9 MB | 571/906 kB | 0.1/1.1 MB | 65/338 kB | 69/157 kBProgress (5): 1.3/1.9 MB | 571/906 kB | 0.2/1.1 MB | 65/338 kB | 69/157 kBProgress (5): 1.3/1.9 MB | 571/906 kB | 0.2/1.1 MB | 65/338 kB | 86/157 kBProgress (5): 1.3/1.9 MB | 571/906 kB | 0.2/1.1 MB | 65/338 kB | 86/157 kBProgress (5): 1.3/1.9 MB | 571/906 kB | 0.2/1.1 MB | 81/338 kB | 86/157 kBProgress (5): 1.3/1.9 MB | 571/906 kB | 0.2/1.1 MB | 81/338 kB | 86/157 kBProgress (5): 1.3/1.9 MB | 571/906 kB | 0.2/1.1 MB | 81/338 kB | 86/157 kBProgress (5): 1.3/1.9 MB | 588/906 kB | 0.2/1.1 MB | 81/338 kB | 86/157 kBProgress (5): 1.3/1.9 MB | 588/906 kB | 0.2/1.1 MB | 81/338 kB | 86/157 kBProgress (5): 1.3/1.9 MB | 588/906 kB | 0.2/1.1 MB | 81/338 kB | 86/157 kBProgress (5): 1.3/1.9 MB | 588/906 kB | 0.2/1.1 MB | 81/338 kB | 102/157 kBProgress (5): 1.3/1.9 MB | 588/906 kB | 0.2/1.1 MB | 98/338 kB | 102/157 kBProgress (5): 1.3/1.9 MB | 588/906 kB | 0.2/1.1 MB | 98/338 kB | 102/157 kBProgress (5): 1.3/1.9 MB | 588/906 kB | 0.2/1.1 MB | 98/338 kB | 102/157 kBProgress (5): 1.3/1.9 MB | 588/906 kB | 0.2/1.1 MB | 98/338 kB | 102/157 kBProgress (5): 1.3/1.9 MB | 604/906 kB | 0.2/1.1 MB | 98/338 kB | 102/157 kBProgress (5): 1.3/1.9 MB | 604/906 kB | 0.2/1.1 MB | 98/338 kB | 102/157 kBProgress (5): 1.3/1.9 MB | 604/906 kB | 0.2/1.1 MB | 98/338 kB | 118/157 kBProgress (5): 1.3/1.9 MB | 604/906 kB | 0.2/1.1 MB | 98/338 kB | 118/157 kBProgress (5): 1.3/1.9 MB | 604/906 kB | 0.2/1.1 MB | 114/338 kB | 118/157 kBProgress (5): 1.3/1.9 MB | 604/906 kB | 0.2/1.1 MB | 114/338 kB | 118/157 kBProgress (5): 1.3/1.9 MB | 604/906 kB | 0.2/1.1 MB | 114/338 kB | 118/157 kBProgress (5): 1.3/1.9 MB | 621/906 kB | 0.2/1.1 MB | 114/338 kB | 118/157 kBProgress (5): 1.3/1.9 MB | 621/906 kB | 0.2/1.1 MB | 114/338 kB | 118/157 kBProgress (5): 1.3/1.9 MB | 621/906 kB | 0.2/1.1 MB | 114/338 kB | 135/157 kBProgress (5): 1.3/1.9 MB | 623/906 kB | 0.2/1.1 MB | 114/338 kB | 135/157 kBProgress (5): 1.3/1.9 MB | 623/906 kB | 0.2/1.1 MB | 114/338 kB | 135/157 kBProgress (5): 1.3/1.9 MB | 623/906 kB | 0.2/1.1 MB | 131/338 kB | 135/157 kBProgress (5): 1.3/1.9 MB | 623/906 kB | 0.2/1.1 MB | 131/338 kB | 135/157 kBProgress (5): 1.3/1.9 MB | 623/906 kB | 0.2/1.1 MB | 131/338 kB | 135/157 kBProgress (5): 1.4/1.9 MB | 623/906 kB | 0.2/1.1 MB | 131/338 kB | 135/157 kBProgress (5): 1.4/1.9 MB | 623/906 kB | 0.2/1.1 MB | 131/338 kB | 135/157 kBProgress (5): 1.4/1.9 MB | 639/906 kB | 0.2/1.1 MB | 131/338 kB | 135/157 kBProgress (5): 1.4/1.9 MB | 639/906 kB | 0.2/1.1 MB | 131/338 kB | 151/157 kBProgress (5): 1.4/1.9 MB | 639/906 kB | 0.2/1.1 MB | 131/338 kB | 151/157 kBProgress (5): 1.4/1.9 MB | 639/906 kB | 0.2/1.1 MB | 147/338 kB | 151/157 kBProgress (5): 1.4/1.9 MB | 639/906 kB | 0.2/1.1 MB | 147/338 kB | 157 kB    Progress (5): 1.4/1.9 MB | 639/906 kB | 0.2/1.1 MB | 147/338 kB | 157 kBProgress (5): 1.4/1.9 MB | 639/906 kB | 0.2/1.1 MB | 147/338 kB | 157 kBProgress (5): 1.4/1.9 MB | 656/906 kB | 0.2/1.1 MB | 147/338 kB | 157 kBProgress (5): 1.4/1.9 MB | 656/906 kB | 0.2/1.1 MB | 163/338 kB | 157 kBProgress (5): 1.4/1.9 MB | 656/906 kB | 0.2/1.1 MB | 163/338 kB | 157 kBProgress (5): 1.4/1.9 MB | 656/906 kB | 0.2/1.1 MB | 163/338 kB | 157 kB                                                                        Downloaded from central: https://repo.maven.apache.org/maven2/org/tomlj/tomlj/1.0.0/tomlj-1.0.0.jar (157 kB at 631 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+Progress (4): 1.4/1.9 MB | 672/906 kB | 0.2/1.1 MB | 163/338 kBProgress (4): 1.4/1.9 MB | 672/906 kB | 0.2/1.1 MB | 180/338 kBProgress (4): 1.4/1.9 MB | 672/906 kB | 0.2/1.1 MB | 180/338 kBProgress (4): 1.4/1.9 MB | 672/906 kB | 0.2/1.1 MB | 180/338 kBProgress (4): 1.4/1.9 MB | 689/906 kB | 0.2/1.1 MB | 180/338 kBProgress (4): 1.4/1.9 MB | 689/906 kB | 0.2/1.1 MB | 196/338 kBProgress (4): 1.4/1.9 MB | 689/906 kB | 0.3/1.1 MB | 196/338 kBProgress (4): 1.4/1.9 MB | 689/906 kB | 0.3/1.1 MB | 196/338 kBProgress (4): 1.4/1.9 MB | 705/906 kB | 0.3/1.1 MB | 196/338 kBProgress (4): 1.4/1.9 MB | 705/906 kB | 0.3/1.1 MB | 212/338 kBProgress (4): 1.4/1.9 MB | 705/906 kB | 0.3/1.1 MB | 212/338 kBProgress (4): 1.4/1.9 MB | 705/906 kB | 0.3/1.1 MB | 212/338 kBProgress (4): 1.4/1.9 MB | 721/906 kB | 0.3/1.1 MB | 212/338 kBProgress (4): 1.4/1.9 MB | 721/906 kB | 0.3/1.1 MB | 229/338 kBProgress (4): 1.4/1.9 MB | 721/906 kB | 0.3/1.1 MB | 229/338 kBProgress (4): 1.5/1.9 MB | 721/906 kB | 0.3/1.1 MB | 229/338 kBProgress (4): 1.5/1.9 MB | 738/906 kB | 0.3/1.1 MB | 229/338 kBProgress (4): 1.5/1.9 MB | 738/906 kB | 0.3/1.1 MB | 245/338 kBProgress (4): 1.5/1.9 MB | 738/906 kB | 0.3/1.1 MB | 245/338 kBProgress (4): 1.5/1.9 MB | 738/906 kB | 0.3/1.1 MB | 245/338 kBProgress (4): 1.5/1.9 MB | 754/906 kB | 0.3/1.1 MB | 245/338 kBProgress (4): 1.5/1.9 MB | 754/906 kB | 0.3/1.1 MB | 262/338 kBProgress (4): 1.5/1.9 MB | 754/906 kB | 0.3/1.1 MB | 262/338 kBProgress (4): 1.5/1.9 MB | 754/906 kB | 0.3/1.1 MB | 262/338 kBProgress (4): 1.5/1.9 MB | 754/906 kB | 0.3/1.1 MB | 262/338 kBProgress (4): 1.5/1.9 MB | 771/906 kB | 0.3/1.1 MB | 262/338 kBProgress (4): 1.5/1.9 MB | 771/906 kB | 0.3/1.1 MB | 278/338 kBProgress (4): 1.5/1.9 MB | 771/906 kB | 0.3/1.1 MB | 278/338 kBProgress (4): 1.5/1.9 MB | 771/906 kB | 0.3/1.1 MB | 278/338 kBProgress (4): 1.5/1.9 MB | 787/906 kB | 0.3/1.1 MB | 278/338 kBProgress (4): 1.5/1.9 MB | 787/906 kB | 0.3/1.1 MB | 294/338 kBProgress (4): 1.5/1.9 MB | 787/906 kB | 0.4/1.1 MB | 294/338 kBProgress (4): 1.5/1.9 MB | 787/906 kB | 0.4/1.1 MB | 294/338 kBProgress (4): 1.5/1.9 MB | 803/906 kB | 0.4/1.1 MB | 294/338 kBProgress (4): 1.5/1.9 MB | 803/906 kB | 0.4/1.1 MB | 311/338 kBProgress (4): 1.5/1.9 MB | 803/906 kB | 0.4/1.1 MB | 311/338 kBProgress (4): 1.5/1.9 MB | 803/906 kB | 0.4/1.1 MB | 311/338 kBProgress (4): 1.5/1.9 MB | 820/906 kB | 0.4/1.1 MB | 311/338 kBProgress (4): 1.5/1.9 MB | 820/906 kB | 0.4/1.1 MB | 327/338 kBProgress (4): 1.5/1.9 MB | 820/906 kB | 0.4/1.1 MB | 327/338 kBProgress (4): 1.6/1.9 MB | 820/906 kB | 0.4/1.1 MB | 327/338 kBProgress (4): 1.6/1.9 MB | 820/906 kB | 0.4/1.1 MB | 338 kB    Progress (4): 1.6/1.9 MB | 836/906 kB | 0.4/1.1 MB | 338 kBProgress (4): 1.6/1.9 MB | 836/906 kB | 0.4/1.1 MB | 338 kBProgress (4): 1.6/1.9 MB | 836/906 kB | 0.4/1.1 MB | 338 kBProgress (4): 1.6/1.9 MB | 836/906 kB | 0.4/1.1 MB | 338 kB                                                           Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-runtime/4.7.2/antlr4-runtime-4.7.2.jar (338 kB at 1.3 MB/s)
+Progress (3): 1.6/1.9 MB | 852/906 kB | 0.4/1.1 MB                                                  Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-loader-tools/3.4.0/spring-boot-loader-tools-3.4.0.jar
+Progress (3): 1.6/1.9 MB | 852/906 kB | 0.4/1.1 MBProgress (3): 1.6/1.9 MB | 852/906 kB | 0.4/1.1 MBProgress (3): 1.6/1.9 MB | 869/906 kB | 0.4/1.1 MBProgress (3): 1.6/1.9 MB | 869/906 kB | 0.4/1.1 MBProgress (3): 1.6/1.9 MB | 869/906 kB | 0.5/1.1 MBProgress (3): 1.6/1.9 MB | 883/906 kB | 0.5/1.1 MBProgress (3): 1.6/1.9 MB | 883/906 kB | 0.5/1.1 MBProgress (3): 1.6/1.9 MB | 883/906 kB | 0.5/1.1 MBProgress (3): 1.6/1.9 MB | 883/906 kB | 0.5/1.1 MBProgress (3): 1.6/1.9 MB | 899/906 kB | 0.5/1.1 MBProgress (3): 1.6/1.9 MB | 906 kB | 0.5/1.1 MB    Progress (3): 1.6/1.9 MB | 906 kB | 0.5/1.1 MBProgress (3): 1.6/1.9 MB | 906 kB | 0.5/1.1 MBProgress (3): 1.6/1.9 MB | 906 kB | 0.5/1.1 MBProgress (3): 1.7/1.9 MB | 906 kB | 0.5/1.1 MB                                              Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.3.1/httpcore5-5.3.1.jar (906 kB at 3.5 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.3.2/maven-common-artifact-filters-3.3.2.jar
+Progress (2): 1.7/1.9 MB | 0.5/1.1 MBProgress (2): 1.7/1.9 MB | 0.5/1.1 MBProgress (2): 1.7/1.9 MB | 0.6/1.1 MBProgress (2): 1.7/1.9 MB | 0.6/1.1 MBProgress (2): 1.7/1.9 MB | 0.6/1.1 MBProgress (2): 1.7/1.9 MB | 0.6/1.1 MBProgress (2): 1.7/1.9 MB | 0.6/1.1 MBProgress (2): 1.7/1.9 MB | 0.6/1.1 MBProgress (2): 1.7/1.9 MB | 0.6/1.1 MBProgress (2): 1.7/1.9 MB | 0.6/1.1 MBProgress (2): 1.7/1.9 MB | 0.6/1.1 MBProgress (2): 1.8/1.9 MB | 0.6/1.1 MBProgress (2): 1.8/1.9 MB | 0.6/1.1 MBProgress (2): 1.8/1.9 MB | 0.6/1.1 MBProgress (2): 1.8/1.9 MB | 0.6/1.1 MBProgress (2): 1.8/1.9 MB | 0.6/1.1 MBProgress (2): 1.8/1.9 MB | 0.7/1.1 MBProgress (2): 1.8/1.9 MB | 0.7/1.1 MBProgress (2): 1.8/1.9 MB | 0.7/1.1 MBProgress (2): 1.8/1.9 MB | 0.7/1.1 MBProgress (2): 1.8/1.9 MB | 0.7/1.1 MBProgress (2): 1.8/1.9 MB | 0.7/1.1 MBProgress (2): 1.9/1.9 MB | 0.7/1.1 MBProgress (2): 1.9/1.9 MB | 0.7/1.1 MBProgress (2): 1.9/1.9 MB | 0.7/1.1 MBProgress (2): 1.9/1.9 MB | 0.7/1.1 MBProgress (2): 1.9 MB | 0.7/1.1 MB    Progress (2): 1.9 MB | 0.7/1.1 MB                                 Downloaded from central: https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar (1.9 MB at 7.0 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-observation/1.14.0/micrometer-observation-1.14.0.jar
+Progress (1): 0.8/1.1 MBProgress (1): 0.8/1.1 MBProgress (1): 0.8/1.1 MBProgress (1): 0.8/1.1 MBProgress (1): 0.8/1.1 MBProgress (1): 0.8/1.1 MBProgress (1): 0.9/1.1 MBProgress (1): 0.9/1.1 MBProgress (1): 0.9/1.1 MBProgress (1): 0.9/1.1 MBProgress (1): 0.9/1.1 MBProgress (1): 0.9/1.1 MBProgress (1): 0.9/1.1 MBProgress (1): 1.0/1.1 MBProgress (1): 1.0/1.1 MBProgress (1): 1.0/1.1 MBProgress (1): 1.0/1.1 MBProgress (1): 1.0/1.1 MBProgress (1): 1.0/1.1 MBProgress (1): 1.0/1.1 MBProgress (1): 1.1/1.1 MBProgress (1): 1.1 MB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.25.0/commons-compress-1.25.0.jar (1.1 MB at 3.9 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-commons/1.14.0/micrometer-commons-1.14.0.jar
+Progress (1): 7.7/20 kBProgress (1): 16/20 kB Progress (1): 20 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar (20 kB at 68 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.5.0/maven-shade-plugin-3.5.0.jar
+Progress (1): 3.8/75 kBProgress (1): 20/75 kB Progress (1): 37/75 kBProgress (2): 37/75 kB | 7.7/464 kBProgress (2): 37/75 kB | 16/464 kB Progress (2): 53/75 kB | 16/464 kBProgress (2): 53/75 kB | 32/464 kBProgress (2): 69/75 kB | 32/464 kBProgress (2): 75 kB | 32/464 kB   Progress (2): 75 kB | 49/464 kBProgress (2): 75 kB | 65/464 kB                               Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-observation/1.14.0/micrometer-observation-1.14.0.jar (75 kB at 248 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.5/asm-9.5.jar
+Progress (1): 81/464 kBProgress (1): 98/464 kBProgress (1): 113/464 kBProgress (1): 129/464 kBProgress (1): 145/464 kBProgress (1): 162/464 kBProgress (1): 178/464 kBProgress (1): 195/464 kBProgress (1): 211/464 kBProgress (1): 227/464 kBProgress (1): 244/464 kBProgress (1): 260/464 kBProgress (1): 277/464 kBProgress (1): 293/464 kBProgress (1): 309/464 kBProgress (1): 326/464 kBProgress (1): 342/464 kBProgress (1): 358/464 kBProgress (1): 375/464 kBProgress (1): 391/464 kBProgress (2): 391/464 kB | 7.7/58 kBProgress (2): 391/464 kB | 16/58 kB Progress (2): 408/464 kB | 16/58 kBProgress (2): 424/464 kB | 16/58 kBProgress (2): 440/464 kB | 16/58 kBProgress (2): 440/464 kB | 32/58 kBProgress (2): 457/464 kB | 32/58 kBProgress (2): 464 kB | 32/58 kB    Progress (2): 464 kB | 49/58 kB                               Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-loader-tools/3.4.0/spring-boot-loader-tools-3.4.0.jar (464 kB at 1.5 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.jar
+Progress (1): 58 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.3.2/maven-common-artifact-filters-3.3.2.jar (58 kB at 186 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar
+Progress (1): 7.7/48 kBProgress (1): 16/48 kB Progress (1): 20/48 kBProgress (1): 37/48 kBProgress (1): 48 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-commons/1.14.0/micrometer-commons-1.14.0.jar (48 kB at 144 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jdom/jdom2/2.0.6.1/jdom2-2.0.6.1.jar
+Progress (1): 7.7/147 kBProgress (1): 16/147 kB Progress (1): 20/147 kBProgress (1): 36/147 kBProgress (1): 53/147 kBProgress (1): 69/147 kBProgress (1): 86/147 kBProgress (1): 102/147 kBProgress (1): 118/147 kBProgress (1): 135/147 kBProgress (1): 147 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.5.0/maven-shade-plugin-3.5.0.jar (147 kB at 429 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/3.2.1/maven-dependency-tree-3.2.1.jar
+Progress (1): 3.7/122 kBProgress (1): 20/122 kB Progress (1): 37/122 kBProgress (1): 53/122 kBProgress (1): 69/122 kBProgress (1): 86/122 kBProgress (1): 102/122 kBProgress (1): 118/122 kBProgress (1): 122 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.5/asm-9.5.jar (122 kB at 351 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-util/1.0.0.v20140518/aether-util-1.0.0.v20140518.jar
+Progress (1): 7.7/72 kBProgress (1): 16/72 kB Progress (1): 20/72 kBProgress (1): 37/72 kBProgress (1): 53/72 kBProgress (1): 69/72 kBProgress (1): 72 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.jar (72 kB at 206 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-api/1.0.0.v20140518/aether-api-1.0.0.v20140518.jar
+Progress (1): 7.7/52 kBProgress (1): 16/52 kB Progress (1): 32/52 kBProgress (1): 49/52 kBProgress (1): 52 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar (52 kB at 142 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.13.0/commons-io-2.13.0.jar
+Progress (1): 7.7/328 kBProgress (1): 16/328 kB Progress (1): 32/328 kBProgress (1): 49/328 kBProgress (1): 65/328 kBProgress (1): 81/328 kBProgress (1): 98/328 kBProgress (1): 114/328 kBProgress (1): 131/328 kBProgress (1): 147/328 kBProgress (1): 163/328 kBProgress (1): 180/328 kBProgress (1): 196/328 kBProgress (1): 212/328 kBProgress (1): 229/328 kBProgress (1): 245/328 kBProgress (1): 262/328 kBProgress (2): 262/328 kB | 7.7/136 kBProgress (2): 262/328 kB | 8.2/136 kBProgress (2): 278/328 kB | 8.2/136 kBProgress (2): 278/328 kB | 25/136 kB Progress (2): 278/328 kB | 41/136 kBProgress (2): 294/328 kB | 41/136 kBProgress (2): 294/328 kB | 57/136 kBProgress (2): 311/328 kB | 57/136 kBProgress (2): 311/328 kB | 74/136 kBProgress (2): 327/328 kB | 74/136 kBProgress (2): 328 kB | 74/136 kB    Progress (2): 328 kB | 90/136 kBProgress (2): 328 kB | 106/136 kB                                 Downloaded from central: https://repo.maven.apache.org/maven2/org/jdom/jdom2/2.0.6.1/jdom2-2.0.6.1.jar (328 kB at 847 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/vafer/jdependency/2.8.0/jdependency-2.8.0.jar
+Progress (1): 123/136 kBProgress (1): 136 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-api/1.0.0.v20140518/aether-api-1.0.0.v20140518.jar (136 kB at 350 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar
+Progress (1): 8.2/146 kBProgress (1): 25/146 kB Progress (1): 41/146 kBProgress (1): 57/146 kBProgress (1): 74/146 kBProgress (1): 90/146 kBProgress (1): 106/146 kBProgress (1): 123/146 kBProgress (1): 139/146 kBProgress (1): 146 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-util/1.0.0.v20140518/aether-util-1.0.0.v20140518.jar (146 kB at 364 kB/s)
+Progress (1): 7.7/43 kBProgress (1): 16/43 kB Progress (1): 20/43 kBProgress (1): 37/43 kBProgress (1): 43 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/3.2.1/maven-dependency-tree-3.2.1.jar (43 kB at 104 kB/s)
+Progress (1): 7.7/484 kBProgress (1): 16/484 kB Progress (1): 25/484 kBProgress (1): 41/484 kBProgress (1): 57/484 kBProgress (1): 74/484 kBProgress (1): 90/484 kBProgress (1): 106/484 kBProgress (1): 123/484 kBProgress (1): 139/484 kBProgress (1): 156/484 kBProgress (1): 172/484 kBProgress (1): 188/484 kBProgress (2): 188/484 kB | 7.7/233 kBProgress (2): 188/484 kB | 16/233 kB Progress (2): 188/484 kB | 32/233 kBProgress (2): 205/484 kB | 32/233 kBProgress (2): 205/484 kB | 49/233 kBProgress (2): 205/484 kB | 65/233 kBProgress (2): 221/484 kB | 65/233 kBProgress (2): 221/484 kB | 81/233 kBProgress (2): 221/484 kB | 98/233 kBProgress (2): 238/484 kB | 98/233 kBProgress (2): 238/484 kB | 114/233 kBProgress (2): 238/484 kB | 131/233 kBProgress (2): 238/484 kB | 147/233 kBProgress (2): 238/484 kB | 163/233 kBProgress (2): 254/484 kB | 163/233 kBProgress (2): 254/484 kB | 180/233 kBProgress (2): 254/484 kB | 196/233 kBProgress (2): 270/484 kB | 196/233 kBProgress (2): 270/484 kB | 212/233 kBProgress (2): 270/484 kB | 229/233 kBProgress (2): 270/484 kB | 233 kB    Progress (2): 287/484 kB | 233 kB                                 Downloaded from central: https://repo.maven.apache.org/maven2/org/vafer/jdependency/2.8.0/jdependency-2.8.0.jar (233 kB at 535 kB/s)
+Progress (1): 303/484 kBProgress (1): 319/484 kBProgress (1): 336/484 kBProgress (1): 352/484 kBProgress (1): 369/484 kBProgress (1): 385/484 kBProgress (1): 401/484 kBProgress (1): 418/484 kBProgress (1): 434/484 kBProgress (1): 451/484 kBProgress (1): 467/484 kBProgress (1): 483/484 kBProgress (1): 484 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.13.0/commons-io-2.13.0.jar (484 kB at 1.1 MB/s)
+Progress (1): 7.7/752 kBProgress (1): 16/752 kB Progress (1): 32/752 kBProgress (1): 49/752 kBProgress (1): 65/752 kBProgress (1): 81/752 kBProgress (1): 98/752 kBProgress (1): 114/752 kBProgress (1): 131/752 kBProgress (1): 147/752 kBProgress (1): 163/752 kBProgress (1): 180/752 kBProgress (1): 196/752 kBProgress (1): 212/752 kBProgress (1): 227/752 kBProgress (1): 244/752 kBProgress (1): 260/752 kBProgress (1): 277/752 kBProgress (1): 293/752 kBProgress (1): 309/752 kBProgress (1): 326/752 kBProgress (1): 342/752 kBProgress (1): 358/752 kBProgress (1): 375/752 kBProgress (1): 391/752 kBProgress (1): 408/752 kBProgress (1): 424/752 kBProgress (1): 440/752 kBProgress (1): 457/752 kBProgress (1): 473/752 kBProgress (1): 490/752 kBProgress (1): 506/752 kBProgress (1): 522/752 kBProgress (1): 539/752 kBProgress (1): 555/752 kBProgress (1): 571/752 kBProgress (1): 588/752 kBProgress (1): 604/752 kBProgress (1): 612/752 kBProgress (1): 629/752 kBProgress (1): 645/752 kBProgress (1): 662/752 kBProgress (1): 678/752 kBProgress (1): 686/752 kBProgress (1): 694/752 kBProgress (1): 711/752 kBProgress (1): 719/752 kBProgress (1): 735/752 kBProgress (1): 752/752 kBProgress (1): 752 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar (752 kB at 1.6 MB/s)
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.0)
+
+2025-10-06T13:19:57.511Z  INFO 4176 --- [           main] com.examly.springapp.DemoApplication     : Starting DemoApplication using Java 17.0.15 with PID 4176 (/home/coder/project/workspace/springapp/target/classes started by coder in /home/coder/project/workspace/springapp)
+2025-10-06T13:19:57.514Z  INFO 4176 --- [           main] com.examly.springapp.DemoApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-06T13:19:57.951Z  INFO 4176 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-06T13:19:58.000Z  INFO 4176 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interface.
+2025-10-06T13:19:58.357Z  INFO 4176 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-06T13:19:58.366Z  INFO 4176 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-06T13:19:58.367Z  INFO 4176 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-10-06T13:19:58.400Z  INFO 4176 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-06T13:19:58.401Z  INFO 4176 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 857 ms
+2025-10-06T13:19:58.497Z  INFO 4176 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-06T13:19:58.529Z  INFO 4176 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2025-10-06T13:19:58.550Z  INFO 4176 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-06T13:19:58.720Z  INFO 4176 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-06T13:19:58.741Z  INFO 4176 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-06T13:19:58.882Z  INFO 4176 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@16a6dc21
+2025-10-06T13:19:58.883Z  INFO 4176 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-06T13:19:58.920Z  WARN 4176 --- [           main] org.hibernate.dialect.Dialect            : HHH000511: The 5.6.51 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2025-10-06T13:19:58.936Z  INFO 4176 --- [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 5.6.51
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-06T13:19:59.513Z  INFO 4176 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: 
+    drop table if exists posts
+Hibernate: 
+    create table posts (
+        created_at datetime(6),
+        id bigint not null auto_increment,
+        updated_at datetime(6),
+        author varchar(255) not null,
+        content TEXT not null,
+        title varchar(255) not null,
+        primary key (id)
+    ) engine=InnoDB
+2025-10-06T13:19:59.574Z  INFO 4176 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-06T13:19:59.737Z  WARN 4176 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-06T13:19:59.975Z  INFO 4176 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-06T13:19:59.982Z  INFO 4176 --- [           main] com.examly.springapp.DemoApplication     : Started DemoApplication in 2.761 seconds (process running for 3.021)
+2025-10-06T13:26:21.552Z  INFO 4176 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-06T13:26:21.552Z  INFO 4176 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-06T13:26:21.553Z  INFO 4176 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+Hibernate: 
+    select
+        bp1_0.id,
+        bp1_0.author,
+        bp1_0.content,
+        bp1_0.created_at,
+        bp1_0.title,
+        bp1_0.updated_at 
+    from
+        posts bp1_0
+Hibernate: 
+    select
+        bp1_0.id,
+        bp1_0.author,
+        bp1_0.content,
+        bp1_0.created_at,
+        bp1_0.title,
+        bp1_0.updated_at 
+    from
+        posts bp1_0
+Hibernate: 
+    insert 
+    into
+        posts
+        (author, content, created_at, title, updated_at) 
+    values
+        (?, ?, ?, ?, ?)
+Hibernate: 
+    select
+        bp1_0.id,
+        bp1_0.author,
+        bp1_0.content,
+        bp1_0.created_at,
+        bp1_0.title,
+        bp1_0.updated_at 
+    from
+        posts bp1_0
+Hibernate: 
+    select
+        bp1_0.id,
+        bp1_0.author,
+        bp1_0.content,
+        bp1_0.created_at,
+        bp1_0.title,
+        bp1_0.updated_at 
+    from
+        posts bp1_0
+Hibernate: 
+    select
+        bp1_0.id,
+        bp1_0.author,
+        bp1_0.content,
+        bp1_0.created_at,
+        bp1_0.title,
+        bp1_0.updated_at 
+    from
+        posts bp1_0
+Hibernate: 
+    select
+        bp1_0.id,
+        bp1_0.author,
+        bp1_0.content,
+        bp1_0.created_at,
+        bp1_0.title,
+        bp1_0.updated_at 
+    from
+        posts bp1_0
+Hibernate: 
+    select
+        bp1_0.id,
+        bp1_0.author,
+        bp1_0.content,
+        bp1_0.created_at,
+        bp1_0.title,
+        bp1_0.updated_at 
+    from
+        posts bp1_0 
+    where
+        bp1_0.id=?
+Hibernate: 
+    delete 
+    from
+        posts 
+    where
+        id=?
+Hibernate: 
+    select
+        bp1_0.id,
+        bp1_0.author,
+        bp1_0.content,
+        bp1_0.created_at,
+        bp1_0.title,
+        bp1_0.updated_at 
+    from
+        posts bp1_0
+Hibernate: 
+    insert 
+    into
+        posts
+        (author, content, created_at, title, updated_at) 
+    values
+        (?, ?, ?, ?, ?)
+Hibernate: 
+    select
+        bp1_0.id,
+        bp1_0.author,
+        bp1_0.content,
+        bp1_0.created_at,
+        bp1_0.title,
+        bp1_0.updated_at 
+    from
+        posts bp1_0
+Hibernate: 
+    select
+        bp1_0.id,
+        bp1_0.author,
+        bp1_0.content,
+        bp1_0.created_at,
+        bp1_0.title,
+        bp1_0.updated_at 
+    from
+        posts bp1_0
+Hibernate: 
+    select
+        bp1_0.id,
+        bp1_0.author,
+        bp1_0.content,
+        bp1_0.created_at,
+        bp1_0.title,
+        bp1_0.updated_at 
+    from
+        posts bp1_0 
+    where
+        bp1_0.id=?
+Hibernate: 
+    select
+        bp1_0.id,
+        bp1_0.author,
+        bp1_0.content,
+        bp1_0.created_at,
+        bp1_0.title,
+        bp1_0.updated_at 
+    from
+        posts bp1_0 
+    where
+        bp1_0.id=?
+Hibernate: 
+    select
+        bp1_0.id,
+        bp1_0.author,
+        bp1_0.content,
+        bp1_0.created_at,
+        bp1_0.title,
+        bp1_0.updated_at 
+    from
+        posts bp1_0 
+    where
+        bp1_0.id=?
+Hibernate: 
+    update
+        posts 
+    set
+        author=?,
+        content=?,
+        created_at=?,
+        title=?,
+        updated_at=? 
+    where
+        id=?
+Hibernate: 
+    select
+        bp1_0.id,
+        bp1_0.author,
+        bp1_0.content,
+        bp1_0.created_at,
+        bp1_0.title,
+        bp1_0.updated_at 
+    from
+        posts bp1_0
+Hibernate: 
+    select
+        bp1_0.id,
+        bp1_0.author,
+        bp1_0.content,
+        bp1_0.created_at,
+        bp1_0.title,
+        bp1_0.updated_at 
+    from
+        posts bp1_0
+Hibernate: 
+    select
+        bp1_0.id,
+        bp1_0.author,
+        bp1_0.content,
+        bp1_0.created_at,
+        bp1_0.title,
+        bp1_0.updated_at 
+    from
+        posts bp1_0 
+    where
+        bp1_0.id=?
+Hibernate: 
+    delete 
+    from
+        posts 
+    where
+        id=?
+Hibernate: 
+    select
+        bp1_0.id,
+        bp1_0.author,
+        bp1_0.content,
+        bp1_0.created_at,
+        bp1_0.title,
+        bp1_0.updated_at 
+    from
+        posts bp1_0
+Hibernate: 
+    select
+        bp1_0.id,
+        bp1_0.author,
+        bp1_0.content,
+        bp1_0.created_at,
+        bp1_0.title,
+        bp1_0.updated_at 
+    from
+        posts bp1_0
+Hibernate: 
+    insert 
+    into
+        posts
+        (author, content, created_at, title, updated_at) 
+    values
+        (?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        posts
+        (author, content, created_at, title, updated_at) 
+    values
+        (?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        posts
+        (author, content, created_at, title, updated_at) 
+    values
+        (?, ?, ?, ?, ?)
+Hibernate: 
+    select
+        bp1_0.id,
+        bp1_0.author,
+        bp1_0.content,
+        bp1_0.created_at,
+        bp1_0.title,
+        bp1_0.updated_at 
+    from
+        posts bp1_0
+Hibernate: 
+    select
+        bp1_0.id,
+        bp1_0.author,
+        bp1_0.content,
+        bp1_0.created_at,
+        bp1_0.title,
+        bp1_0.updated_at 
+    from
+        posts bp1_0
+Hibernate: 
+    select
+        bp1_0.id,
+        bp1_0.author,
+        bp1_0.content,
+        bp1_0.created_at,
+        bp1_0.title,
+        bp1_0.updated_at 
+    from
+        posts bp1_0 
+    where
+        bp1_0.id=?
+Hibernate: 
+    delete 
+    from
+        posts 
+    where
+        id=?
+Hibernate: 
+    select
+        bp1_0.id,
+        bp1_0.author,
+        bp1_0.content,
+        bp1_0.created_at,
+        bp1_0.title,
+        bp1_0.updated_at 
+    from
+        posts bp1_0
+Hibernate: 
+    select
+        bp1_0.id,
+        bp1_0.author,
+        bp1_0.content,
+        bp1_0.created_at,
+        bp1_0.title,
+        bp1_0.updated_at 
+    from
+        posts bp1_0
+Hibernate: 
+    select
+        bp1_0.id,
+        bp1_0.author,
+        bp1_0.content,
+        bp1_0.created_at,
+        bp1_0.title,
+        bp1_0.updated_at 
+    from
+        posts bp1_0
+2025-10-06T13:47:15.409Z  WARN 4176 --- [nio-8080-exec-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1146, SQLState: 42S02
+2025-10-06T13:47:15.410Z ERROR 4176 --- [nio-8080-exec-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : Table 'app_db.posts' doesn't exist
+2025-10-06T13:47:15.420Z ERROR 4176 --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.InvalidDataAccessResourceUsageException: JDBC exception executing SQL [select bp1_0.id,bp1_0.author,bp1_0.content,bp1_0.created_at,bp1_0.title,bp1_0.updated_at from posts bp1_0] [Table 'app_db.posts' doesn't exist] [n/a]; SQL [n/a]] with root cause
+
+java.sql.SQLSyntaxErrorException: Table 'app_db.posts' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:112) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1056) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java) ~[HikariCP-5.1.0.jar:na]
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:250) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.getResultSet(DeferredResultSetAccess.java:171) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.<init>(JdbcValuesResultSetImpl.java:74) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.resolveJdbcValuesSource(JdbcSelectExecutorStandardImpl.java:355) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcSelectExecutorStandardImpl.java:137) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcSelectExecutorStandardImpl.java:102) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.executeQuery(JdbcSelectExecutor.java:91) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:165) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.lambda$new$1(ConcreteSqmSelectQueryPlan.java:152) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.withCacheableSqmInterpretation(ConcreteSqmSelectQueryPlan.java:442) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.performList(ConcreteSqmSelectQueryPlan.java:362) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.query.sqm.internal.QuerySqmImpl.doList(QuerySqmImpl.java:380) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.query.spi.AbstractSelectionQuery.list(AbstractSelectionQuery.java:143) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.query.Query.getResultList(Query.java:120) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll(SimpleJpaRepository.java:389) ~[spring-data-jpa-3.4.0.jar:3.4.0]
+	at jdk.internal.reflect.GeneratedMethodAccessor36.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:515) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:284) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:752) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:174) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:149) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:69) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380) ~[spring-tx-6.2.0.jar:6.2.0]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.2.0.jar:6.2.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138) ~[spring-tx-6.2.0.jar:6.2.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165) ~[spring-data-jpa-3.4.0.jar:3.4.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223) ~[spring-aop-6.2.0.jar:6.2.0]
+	at jdk.proxy2/jdk.proxy2.$Proxy121.findAll(Unknown Source) ~[na:na]
+	at com.examly.springapp.controller.BlogPostController.getAllPosts(BlogPostController.java:25) ~[classes/:na]
+	at jdk.internal.reflect.GeneratedMethodAccessor35.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.33.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.33.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:731) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+Hibernate: 
+    select
+        bp1_0.id,
+        bp1_0.author,
+        bp1_0.content,
+        bp1_0.created_at,
+        bp1_0.title,
+        bp1_0.updated_at 
+    from
+        posts bp1_0
+2025-10-06T13:52:55.083Z  WARN 4176 --- [nio-8080-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1146, SQLState: 42S02
+2025-10-06T13:52:55.084Z ERROR 4176 --- [nio-8080-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : Table 'app_db.posts' doesn't exist
+2025-10-06T13:52:55.085Z ERROR 4176 --- [nio-8080-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.InvalidDataAccessResourceUsageException: JDBC exception executing SQL [select bp1_0.id,bp1_0.author,bp1_0.content,bp1_0.created_at,bp1_0.title,bp1_0.updated_at from posts bp1_0] [Table 'app_db.posts' doesn't exist] [n/a]; SQL [n/a]] with root cause
+
+java.sql.SQLSyntaxErrorException: Table 'app_db.posts' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:112) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1056) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java) ~[HikariCP-5.1.0.jar:na]
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:250) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.getResultSet(DeferredResultSetAccess.java:171) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.<init>(JdbcValuesResultSetImpl.java:74) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.resolveJdbcValuesSource(JdbcSelectExecutorStandardImpl.java:355) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcSelectExecutorStandardImpl.java:137) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcSelectExecutorStandardImpl.java:102) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.executeQuery(JdbcSelectExecutor.java:91) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:165) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.lambda$new$1(ConcreteSqmSelectQueryPlan.java:152) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.withCacheableSqmInterpretation(ConcreteSqmSelectQueryPlan.java:442) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.performList(ConcreteSqmSelectQueryPlan.java:362) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.query.sqm.internal.QuerySqmImpl.doList(QuerySqmImpl.java:380) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.query.spi.AbstractSelectionQuery.list(AbstractSelectionQuery.java:143) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.query.Query.getResultList(Query.java:120) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll(SimpleJpaRepository.java:389) ~[spring-data-jpa-3.4.0.jar:3.4.0]
+	at jdk.internal.reflect.GeneratedMethodAccessor36.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:515) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:284) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:752) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:174) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:149) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:69) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380) ~[spring-tx-6.2.0.jar:6.2.0]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.2.0.jar:6.2.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138) ~[spring-tx-6.2.0.jar:6.2.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165) ~[spring-data-jpa-3.4.0.jar:3.4.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223) ~[spring-aop-6.2.0.jar:6.2.0]
+	at jdk.proxy2/jdk.proxy2.$Proxy121.findAll(Unknown Source) ~[na:na]
+	at com.examly.springapp.controller.BlogPostController.getAllPosts(BlogPostController.java:25) ~[classes/:na]
+	at jdk.internal.reflect.GeneratedMethodAccessor35.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.33.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.33.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:731) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+Hibernate: 
+    select
+        bp1_0.id,
+        bp1_0.author,
+        bp1_0.content,
+        bp1_0.created_at,
+        bp1_0.title,
+        bp1_0.updated_at 
+    from
+        posts bp1_0
+2025-10-06T13:53:13.314Z  WARN 4176 --- [nio-8080-exec-7] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1146, SQLState: 42S02
+2025-10-06T13:53:13.314Z ERROR 4176 --- [nio-8080-exec-7] o.h.engine.jdbc.spi.SqlExceptionHelper   : Table 'app_db.posts' doesn't exist
+2025-10-06T13:53:13.315Z ERROR 4176 --- [nio-8080-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.InvalidDataAccessResourceUsageException: JDBC exception executing SQL [select bp1_0.id,bp1_0.author,bp1_0.content,bp1_0.created_at,bp1_0.title,bp1_0.updated_at from posts bp1_0] [Table 'app_db.posts' doesn't exist] [n/a]; SQL [n/a]] with root cause
+
+java.sql.SQLSyntaxErrorException: Table 'app_db.posts' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:112) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1056) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java) ~[HikariCP-5.1.0.jar:na]
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:250) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.getResultSet(DeferredResultSetAccess.java:171) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.<init>(JdbcValuesResultSetImpl.java:74) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.resolveJdbcValuesSource(JdbcSelectExecutorStandardImpl.java:355) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcSelectExecutorStandardImpl.java:137) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcSelectExecutorStandardImpl.java:102) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.executeQuery(JdbcSelectExecutor.java:91) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:165) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.lambda$new$1(ConcreteSqmSelectQueryPlan.java:152) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.withCacheableSqmInterpretation(ConcreteSqmSelectQueryPlan.java:442) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.performList(ConcreteSqmSelectQueryPlan.java:362) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.query.sqm.internal.QuerySqmImpl.doList(QuerySqmImpl.java:380) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.query.spi.AbstractSelectionQuery.list(AbstractSelectionQuery.java:143) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.query.Query.getResultList(Query.java:120) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll(SimpleJpaRepository.java:389) ~[spring-data-jpa-3.4.0.jar:3.4.0]
+	at jdk.internal.reflect.GeneratedMethodAccessor36.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:515) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:284) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:752) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:174) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:149) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:69) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380) ~[spring-tx-6.2.0.jar:6.2.0]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.2.0.jar:6.2.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138) ~[spring-tx-6.2.0.jar:6.2.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165) ~[spring-data-jpa-3.4.0.jar:3.4.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223) ~[spring-aop-6.2.0.jar:6.2.0]
+	at jdk.proxy2/jdk.proxy2.$Proxy121.findAll(Unknown Source) ~[na:na]
+	at com.examly.springapp.controller.BlogPostController.getAllPosts(BlogPostController.java:25) ~[classes/:na]
+	at jdk.internal.reflect.GeneratedMethodAccessor35.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.33.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.33.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:731) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+Hibernate: 
+    select
+        bp1_0.id,
+        bp1_0.author,
+        bp1_0.content,
+        bp1_0.created_at,
+        bp1_0.title,
+        bp1_0.updated_at 
+    from
+        posts bp1_0
+2025-10-06T13:53:13.608Z  WARN 4176 --- [nio-8080-exec-8] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1146, SQLState: 42S02
+2025-10-06T13:53:13.608Z ERROR 4176 --- [nio-8080-exec-8] o.h.engine.jdbc.spi.SqlExceptionHelper   : Table 'app_db.posts' doesn't exist
+2025-10-06T13:53:13.610Z ERROR 4176 --- [nio-8080-exec-8] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.InvalidDataAccessResourceUsageException: JDBC exception executing SQL [select bp1_0.id,bp1_0.author,bp1_0.content,bp1_0.created_at,bp1_0.title,bp1_0.updated_at from posts bp1_0] [Table 'app_db.posts' doesn't exist] [n/a]; SQL [n/a]] with root cause
+
+java.sql.SQLSyntaxErrorException: Table 'app_db.posts' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:112) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1056) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java) ~[HikariCP-5.1.0.jar:na]
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:250) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.getResultSet(DeferredResultSetAccess.java:171) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.<init>(JdbcValuesResultSetImpl.java:74) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.resolveJdbcValuesSource(JdbcSelectExecutorStandardImpl.java:355) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcSelectExecutorStandardImpl.java:137) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcSelectExecutorStandardImpl.java:102) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.executeQuery(JdbcSelectExecutor.java:91) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:165) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.lambda$new$1(ConcreteSqmSelectQueryPlan.java:152) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.withCacheableSqmInterpretation(ConcreteSqmSelectQueryPlan.java:442) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.performList(ConcreteSqmSelectQueryPlan.java:362) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.query.sqm.internal.QuerySqmImpl.doList(QuerySqmImpl.java:380) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.query.spi.AbstractSelectionQuery.list(AbstractSelectionQuery.java:143) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.query.Query.getResultList(Query.java:120) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll(SimpleJpaRepository.java:389) ~[spring-data-jpa-3.4.0.jar:3.4.0]
+	at jdk.internal.reflect.GeneratedMethodAccessor36.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:515) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:284) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:752) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:174) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:149) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:69) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380) ~[spring-tx-6.2.0.jar:6.2.0]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.2.0.jar:6.2.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138) ~[spring-tx-6.2.0.jar:6.2.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165) ~[spring-data-jpa-3.4.0.jar:3.4.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223) ~[spring-aop-6.2.0.jar:6.2.0]
+	at jdk.proxy2/jdk.proxy2.$Proxy121.findAll(Unknown Source) ~[na:na]
+	at com.examly.springapp.controller.BlogPostController.getAllPosts(BlogPostController.java:25) ~[classes/:na]
+	at jdk.internal.reflect.GeneratedMethodAccessor35.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.33.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.33.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:731) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+Hibernate: 
+    select
+        bp1_0.id,
+        bp1_0.author,
+        bp1_0.content,
+        bp1_0.created_at,
+        bp1_0.title,
+        bp1_0.updated_at 
+    from
+        posts bp1_0
+2025-10-06T13:53:21.396Z  WARN 4176 --- [io-8080-exec-10] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1146, SQLState: 42S02
+2025-10-06T13:53:21.396Z ERROR 4176 --- [io-8080-exec-10] o.h.engine.jdbc.spi.SqlExceptionHelper   : Table 'app_db.posts' doesn't exist
+2025-10-06T13:53:21.397Z ERROR 4176 --- [io-8080-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.InvalidDataAccessResourceUsageException: JDBC exception executing SQL [select bp1_0.id,bp1_0.author,bp1_0.content,bp1_0.created_at,bp1_0.title,bp1_0.updated_at from posts bp1_0] [Table 'app_db.posts' doesn't exist] [n/a]; SQL [n/a]] with root cause
+
+java.sql.SQLSyntaxErrorException: Table 'app_db.posts' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:112) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1056) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java) ~[HikariCP-5.1.0.jar:na]
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:250) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.getResultSet(DeferredResultSetAccess.java:171) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.<init>(JdbcValuesResultSetImpl.java:74) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.resolveJdbcValuesSource(JdbcSelectExecutorStandardImpl.java:355) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcSelectExecutorStandardImpl.java:137) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcSelectExecutorStandardImpl.java:102) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.executeQuery(JdbcSelectExecutor.java:91) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:165) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.lambda$new$1(ConcreteSqmSelectQueryPlan.java:152) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.withCacheableSqmInterpretation(ConcreteSqmSelectQueryPlan.java:442) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.performList(ConcreteSqmSelectQueryPlan.java:362) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.query.sqm.internal.QuerySqmImpl.doList(QuerySqmImpl.java:380) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.query.spi.AbstractSelectionQuery.list(AbstractSelectionQuery.java:143) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.query.Query.getResultList(Query.java:120) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll(SimpleJpaRepository.java:389) ~[spring-data-jpa-3.4.0.jar:3.4.0]
+	at jdk.internal.reflect.GeneratedMethodAccessor36.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:515) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:284) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:752) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:174) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:149) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:69) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380) ~[spring-tx-6.2.0.jar:6.2.0]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.2.0.jar:6.2.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138) ~[spring-tx-6.2.0.jar:6.2.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165) ~[spring-data-jpa-3.4.0.jar:3.4.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223) ~[spring-aop-6.2.0.jar:6.2.0]
+	at jdk.proxy2/jdk.proxy2.$Proxy121.findAll(Unknown Source) ~[na:na]
+	at com.examly.springapp.controller.BlogPostController.getAllPosts(BlogPostController.java:25) ~[classes/:na]
+	at jdk.internal.reflect.GeneratedMethodAccessor35.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.33.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.33.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:731) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+Hibernate: 
+    select
+        bp1_0.id,
+        bp1_0.author,
+        bp1_0.content,
+        bp1_0.created_at,
+        bp1_0.title,
+        bp1_0.updated_at 
+    from
+        posts bp1_0
+2025-10-06T13:53:22.423Z  WARN 4176 --- [nio-8080-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1146, SQLState: 42S02
+2025-10-06T13:53:22.424Z ERROR 4176 --- [nio-8080-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : Table 'app_db.posts' doesn't exist
+2025-10-06T13:53:22.425Z ERROR 4176 --- [nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.InvalidDataAccessResourceUsageException: JDBC exception executing SQL [select bp1_0.id,bp1_0.author,bp1_0.content,bp1_0.created_at,bp1_0.title,bp1_0.updated_at from posts bp1_0] [Table 'app_db.posts' doesn't exist] [n/a]; SQL [n/a]] with root cause
+
+java.sql.SQLSyntaxErrorException: Table 'app_db.posts' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:112) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1056) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java) ~[HikariCP-5.1.0.jar:na]
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:250) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.getResultSet(DeferredResultSetAccess.java:171) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.<init>(JdbcValuesResultSetImpl.java:74) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.resolveJdbcValuesSource(JdbcSelectExecutorStandardImpl.java:355) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcSelectExecutorStandardImpl.java:137) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcSelectExecutorStandardImpl.java:102) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.executeQuery(JdbcSelectExecutor.java:91) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:165) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.lambda$new$1(ConcreteSqmSelectQueryPlan.java:152) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.withCacheableSqmInterpretation(ConcreteSqmSelectQueryPlan.java:442) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.performList(ConcreteSqmSelectQueryPlan.java:362) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.query.sqm.internal.QuerySqmImpl.doList(QuerySqmImpl.java:380) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.query.spi.AbstractSelectionQuery.list(AbstractSelectionQuery.java:143) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.query.Query.getResultList(Query.java:120) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll(SimpleJpaRepository.java:389) ~[spring-data-jpa-3.4.0.jar:3.4.0]
+	at jdk.internal.reflect.GeneratedMethodAccessor36.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:515) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:284) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:752) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:174) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:149) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:69) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380) ~[spring-tx-6.2.0.jar:6.2.0]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.2.0.jar:6.2.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138) ~[spring-tx-6.2.0.jar:6.2.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165) ~[spring-data-jpa-3.4.0.jar:3.4.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223) ~[spring-aop-6.2.0.jar:6.2.0]
+	at jdk.proxy2/jdk.proxy2.$Proxy121.findAll(Unknown Source) ~[na:na]
+	at com.examly.springapp.controller.BlogPostController.getAllPosts(BlogPostController.java:25) ~[classes/:na]
+	at jdk.internal.reflect.GeneratedMethodAccessor35.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.33.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.33.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:731) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2025-10-06T13:54:30.848Z  INFO 4176 --- [ionShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-06T13:54:30.849Z  INFO 4176 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-06T13:54:30.852Z  INFO 4176 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-06T13:54:30.854Z  INFO 4176 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-06T13:54:30.855Z  INFO 4176 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  34:38 min
+[INFO] Finished at: 2025-10-06T13:54:30Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:3.4.0:run (default-cli) on project springapp: Process terminated with exit code: 143 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
